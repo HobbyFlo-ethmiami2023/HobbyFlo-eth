@@ -8,14 +8,14 @@ import { Sheet, SheetContent, SheetTrigger } from "../components/ui/sheet";
 import { Menu, Moon, Sun } from "lucide-react";
 //import ProfileButton from "./ui/ProfileButton";
 
-import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useAccount } from "wagmi";
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from "react";
 
 const Header = () => {
   const { theme, setTheme } = useTheme();
   const { isConnected, address } = useAccount();
-  const [isClient, setIsClient] = useState(false)
+  const [isClient, setIsClient] = useState(false);
 
   const routes = [
     {
@@ -45,7 +45,7 @@ const Header = () => {
                 <nav className="flex flex-col gap-4">
                   {routes.map((route, i) => (
                     <Link
-                      key={i}
+                      key={route.label}
                       href={route.href}
                       className="block px-2 py-1 text-lg"
                     >
@@ -61,7 +61,7 @@ const Header = () => {
           </div>
           <nav className="mx-6 flex items-center space-x-4 lg:space-x-6 hidden md:block">
             {routes.map((route, i) => (
-              <Button asChild variant="ghost">
+              <Button key={route.label} asChild variant="ghost">
                 <Link
                   key={i}
                   href={route.href}
@@ -84,13 +84,9 @@ const Header = () => {
               <Moon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
               <span className="sr-only">Toggle Theme</span>
             </Button> */}
-            <ConnectButton label="Sign In"/>
+            <ConnectButton label="Sign In" />
 
-            {(isClient && isConnected) && (
-              <></>
-            )}
-
-
+            {isClient && isConnected && <></>}
           </div>
         </div>
       </Container>
