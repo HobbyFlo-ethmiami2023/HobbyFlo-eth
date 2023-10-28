@@ -21,12 +21,10 @@ export const Features = () => {
               ></path>
             </svg>
             <div className="space-y-2">
-              <p className="text-lg font-medium leadi">
-                Lorem ipsum dolor sit amet
-              </p>
+              <p className="text-lg font-medium leadi">Private</p>
               <p className="leadi">
-                Praesentium ea et neque distinctio quas eius repudiandae quaerat
-                obcaecati voluptatem similique!
+                The details of your peer-to-peer financial agreements only
+                become public in the case of arbitration
               </p>
             </div>
           </div>
@@ -46,12 +44,12 @@ export const Features = () => {
               ></path>
             </svg>
             <div className="space-y-2">
-              <p className="text-lg font-medium leadi">
-                Lorem ipsum dolor sit amet
-              </p>
+              <p className="text-lg font-medium leadi">DAO juries</p>
               <p className="leadi">
-                Praesentium ea et neque distinctio quas eius repudiandae quaerat
-                obcaecati voluptatem similique!
+                Agreements are arbitrated by international DAO communities.
+                Ca$hflo provides you with the control to choose the "courts"
+                that will oversee the redistribution of onchain assets in the
+                case of dispute. Choose wisely!
               </p>
             </div>
           </div>
@@ -71,12 +69,10 @@ export const Features = () => {
               ></path>
             </svg>
             <div className="space-y-2">
-              <p className="text-lg font-medium leadi">
-                Lorem ipsum dolor sit amet
-              </p>
+              <p className="text-lg font-medium leadi">A.I.</p>
               <p className="leadi">
-                Praesentium ea et neque distinctio quas eius repudiandae quaerat
-                obcaecati voluptatem similique!
+                A.I. arbitration assitance is what speeds up the dispute
+                resolution process.
               </p>
             </div>
           </div>
