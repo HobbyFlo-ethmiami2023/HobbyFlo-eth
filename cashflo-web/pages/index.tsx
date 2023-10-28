@@ -5,6 +5,8 @@ import styles from "../styles/Home.module.css";
 import { Hero } from "../components/indexComponents/hero";
 import { Testimonials } from "../components/indexComponents/testimonials";
 import { Features } from "../components/indexComponents/features";
+import { Button } from "../components/ui/button";
+import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +19,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         {/* <ConnectButton /> */}
+        <Header />
         <Hero />
         <Testimonials />
         <Features />
