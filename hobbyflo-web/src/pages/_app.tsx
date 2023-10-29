@@ -27,13 +27,11 @@ import { AuthGuard } from "@/guards/AuthGuard";
 
 import type { NextComponentType } from "next"; //Import Component type
 
-import { pdfjs } from "react-pdf";
+
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { AdminGuard } from "@/guards/AdminGuard";
 
 import Providers from './providers';
-
-pdfjs.GlobalWorkerOptions.workerSrc = `/pdf.worker.js`;
 
 // Add custom appProp type then use union to add it
 type CustomAppProps = AppProps & {

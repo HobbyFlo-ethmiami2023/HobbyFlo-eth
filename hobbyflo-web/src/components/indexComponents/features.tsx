@@ -47,7 +47,7 @@ export const Features = () => {
               <p className="text-lg font-medium leadi">DAO juries</p>
               <p className="leadi">
                 Agreements are arbitrated by international DAO communities.
-                Ca$hflo provides you with the control to choose the "courts"
+                HobbyFlo provides you with the control to choose the "courts"
                 that will oversee the redistribution of onchain assets in the
                 case of dispute. Choose wisely!
               </p>

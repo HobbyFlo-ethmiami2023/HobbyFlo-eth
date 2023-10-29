@@ -69,7 +69,7 @@ export const Testimonials = () => {
 
             <p className="mt-4 text-gray-700">
               I run an ecommerce business selling clothing handmade in Haiti.
-              With Ca$hflow I'm able to guarantee my workers their pay while
+              With HobbyFlo I'm able to guarantee my workers their pay while
               simulataneously ensuring quality controls.
             </p>
           </blockquote>
@@ -134,7 +134,7 @@ export const Testimonials = () => {
 
             <p className="mt-4 text-gray-700">
               Cuba is a jurisdiction where the legal system is inaccessible and
-              often gets it wrong. With Ca$hflo I was able to securely and
+              often gets it wrong. With HobbyFlo I was able to securely and
               privately sell my car.
             </p>
           </blockquote>
@@ -202,7 +202,7 @@ export const Testimonials = () => {
               that we were able to rent to tourists this summer. AirBnb is great
               but doesn't yet support crypto and these guests came highly
               recommend so we tried it out and it worked amazingly. Thanks
-              Ca$hflo!
+              HobbyFlo
             </p>
           </blockquote>
         </div>

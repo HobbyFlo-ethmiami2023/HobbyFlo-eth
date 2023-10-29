@@ -85,6 +85,11 @@ export default function LayoutDashboard({ children, account }: P) {
       icon: RectangleGroupIcon,
     },
     {
+      name: "Contract",
+      href: "/contract",
+      icon: DocumentMagnifyingGlassIcon
+    },
+    {
       name: "Transactions",
       href: "/txns",
       icon: QueueListIcon,
@@ -368,7 +373,7 @@ export default function LayoutDashboard({ children, account }: P) {
                 /> */}
                 &nbsp;
                 <span className="text-sm font-semibold leading-6 text-white">
-                  Ca$hflo
+                  HobbyFlo
                 </span>
               </div>
             </Link>
