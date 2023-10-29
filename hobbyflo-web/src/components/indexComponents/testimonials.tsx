@@ -3,7 +3,7 @@ import React from "react";
 export const Testimonials = () => {
   return (
     <section className="bg-white">
-      <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+      <div className="mx-auto max-w-screen-xl px-4 py-4 sm:px-6 lg:px-8 lg:py-4">
         <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           Read trusted reviews from our customers
         </h2>
@@ -68,9 +68,8 @@ export const Testimonials = () => {
             </div>
 
             <p className="mt-4 text-gray-700">
-              I run an ecommerce business selling clothing handmade in Haiti.
-              With HobbyFlo I'm able to guarantee my workers their pay while
-              simulataneously ensuring quality controls.
+              I have so many clothes and love using HobbyFlo for lending them to
+              my friends
             </p>
           </blockquote>
 
@@ -133,9 +132,8 @@ export const Testimonials = () => {
             </div>
 
             <p className="mt-4 text-gray-700">
-              Cuba is a jurisdiction where the legal system is inaccessible and
-              often gets it wrong. With HobbyFlo I was able to securely and
-              privately sell my car.
+              I have loads of old board games and lend them out to my friends
+              all the time using HobbyFlo
             </p>
           </blockquote>
 
@@ -198,11 +196,8 @@ export const Testimonials = () => {
             </div>
 
             <p className="mt-4 text-gray-700">
-              My grandfather has a small house in the countryside of St. Lucia
-              that we were able to rent to tourists this summer. AirBnb is great
-              but doesn't yet support crypto and these guests came highly
-              recommend so we tried it out and it worked amazingly. Thanks
-              HobbyFlo
+              I've added a whole new dimension to my life by using HobbyFlo to
+              share my old paddleboards with my friends
             </p>
           </blockquote>
         </div>
