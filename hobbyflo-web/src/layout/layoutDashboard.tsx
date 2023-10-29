@@ -38,6 +38,7 @@ import { useTranslation } from "next-i18next";
 import { classNames } from "@/utility/misc/classNames";
 import { errorReporter } from "@/utility/error/reporter";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { UnstoppableLoginButton } from "@/components/indexComponents/navbar/unstoppableLoginButton";
 
 interface P {
   children: ReactNode;
@@ -485,7 +486,8 @@ export default function LayoutDashboard({ children, account }: P) {
                   className="block h-6 w-px bg-gray-900/10 ml-2 mr-2"
                   aria-hidden="true"
                 />
-                <ConnectButton label="Sign In" />
+                <UnstoppableLoginButton />
+                {/* <ConnectButton label="Sign In" /> */}
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative">
                   <Menu.Button className="-m-1.5 flex items-center p-1.5">

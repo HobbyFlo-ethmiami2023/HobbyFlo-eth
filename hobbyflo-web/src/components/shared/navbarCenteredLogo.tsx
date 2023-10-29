@@ -169,7 +169,7 @@ export function NavbarCenteredLogo(p: P) {
               Connect Wallet
             </button> */}
             <UnstoppableLoginButton />
-            <ConnectButton label="Sign In" />
+            {/* <ConnectButton label="Sign In" /> */}
           </div>
         </nav>
       </header>
