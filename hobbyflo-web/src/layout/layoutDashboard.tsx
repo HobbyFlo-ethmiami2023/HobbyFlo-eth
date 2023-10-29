@@ -80,11 +80,6 @@ export default function LayoutDashboard({ children, account }: P) {
       icon: HomeIcon,
     },
     {
-      name: "Dashboard",
-      href: "/dashboard",
-      icon: RectangleGroupIcon,
-    },
-    {
       name: "Contract",
       href: "/contract",
       icon: DocumentMagnifyingGlassIcon,
