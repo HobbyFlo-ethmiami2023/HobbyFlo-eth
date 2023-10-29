@@ -1,0 +1,136 @@
+{
+  "company-name": "Kalygo",
+  "log-in": "Log in",
+  "close-menu": "Close Menu",
+  "open-main-menu": "Open main menu",
+  "stats": {
+    "headline": "Documents don't need to be complicated",
+    "subheadline": "Kalygo saves you time so you can focus on what matters",
+    "stat1_headline": "Serve\nClients",
+    "stat1_subheadline": "Kalygo allows you to restructure your document review workflows to be 10x or even 100x faster than standard practices",
+    "stat2_headline": "Organize\nMatters",
+    "stat2_subheadline": "That means more time for your family, friends, exercise, extracurriculars, business development, sunshine, and much more",
+    "stat3_headline": "Win\nCases",
+    "stat3_subheadline": "Leverage software, AI, and collaboration all at once to boost you and your team's productivity today"
+  },
+  "industries-we-serve": {
+    "title": "Industry we serve",
+    "medical": {
+      "description-1": "Any medical professional that deals with high volumes of documents will find Kalygo beneficial in",
+      "description-2": "managing and digesting",
+      "description-3": "their data.",
+      "persona-1": "Researchers",
+      "persona-1-subtitle": "Medical Researchers, Analysts, and Graduate Students",
+      "persona-2": "Administrators",
+      "persona-2-subtitle": "Practice Managers, Admins, and Assistants",
+      "persona-3": "Clinicians",
+      "persona-3-subtitle": "Doctors, Medical Sales, and Clinical Trials Specialists"
+    },
+    "higher-ed": {
+      "description-1": "Higher Education will always prioritize",
+      "description-2": "critical thinking and independent thought",
+      "description-3": "but the time for coming to terms with accelerated document workflows is now.",
+      "persona-1": "Higher Ed",
+      "persona-1-subtitle": "Researchers, Graduate Students, PhDs, and Administrators",
+      "persona-2": "Students",
+      "persona-2-subtitle": "Bachelors of Arts and Bachelors of Sciences",
+      "persona-3": "Professors",
+      "persona-3-subtitle": "Teachers and TAs of the Arts and Sciences"
+    },
+    "research": {
+      "description-1": "Research has and will always require",
+      "description-2": "critical thinking and independent thought",
+      "description-3": "but the time for coming to terms with accelerated document workflows is now.",
+      "persona-1": "UI/UX",
+      "persona-1-subtitle": "UX Interviewers and UI Analysts",
+      "persona-2": "Researchers",
+      "persona-2-subtitle": "UI/UX researchers",
+      "persona-3": "Inquisitive Souls",
+      "persona-3-subtitle": "Adventure meets research"
+    },
+    "law": {
+      "description-1": "The legal world is filled with",
+      "description-2": "unmanageable amounts of documents",
+      "description-3": "and Kalygo is here to facilitate a better experience in the name of Justice.",
+      "persona-1": "Law Firms",
+      "persona-1-subtitle": "Partners, Associates, & Paralegals",
+      "persona-2": "Discovery",
+      "persona-2-subtitle": "Contractors and Legal Assistants",
+      "persona-3": "Courts",
+      "persona-3-subtitle": "Judges, Jurors, and Clerks"
+    },
+    "marketing": {
+      "description-1": "The marketing world is filled with",
+      "description-2": "unmanageable amounts of data",
+      "description-3": "and Kalygo is here to facilitate a better experience in the name of sales.",
+      "persona-1": "Marketing teams",
+      "persona-1-subtitle": "Collaborate with your team to increase ROI",
+      "persona-2": "Email Marketers",
+      "persona-2-subtitle": "Amplify and customize your sequences",
+      "persona-3": "Indie Marketers",
+      "persona-3-subtitle": "Expand your capacity with A.I. assistance"
+    }
+  },
+  "pricing": {
+    "title": "Pricing",
+    "tier1_name": "Free",
+    "tier1_description": "Limited features",
+    "tier1_feature0": "3 free credits issued on signup so you can test out the platform",
+    "tier1_feature1": "Accounts are free",
+    "tier1_feature2": "GPT-3",
+    "tier1_feature3": "1MB file size limit with credits",
+    "tier1_feature4": "Refer friends to be eligible to win more free credits",
+    "tier2_name": "Starter",
+    "tier2_description": "All features",
+    "tier2_feature0": "Equates to processing ~1,039 pages with GPT-3 or ~40 pages with GPT-4",
+    "tier2_feature1": "Purchase credits after signup",
+    "tier2_feature2": "Paid features disabled when credits run out",
+    "tier2_feature3": "PDF & TXT files supported",
+    "tier2_feature4": "GPT-3 & GPT-4",
+    "tier2_feature5": "40MB file size limit",
+    "tier2_feature6": "$1.00 USD = 100 credits",
+    "tier3_name": "Pro",
+    "tier3_description": "All Features",
+    "tier3_feature0": "Equates to processing ~2,078 pages with GPT-3 or ~81 pages with GPT-4",
+    "tier3_feature1": "Purchase credits after signup",
+    "tier3_feature2": "Paid features disabled when credits run out",
+    "tier3_feature3": "PDF & TXT files supported",
+    "tier3_feature4": "GPT-3 & GPT-4",
+    "tier3_feature5": "40MB file size limit",
+    "tier3_feature6": "$1.00 USD = 100 credits",
+    "tier3_price": "$10",
+    "summary": "summary",
+    "month": "month",
+    "sign-up": "Sign up",
+    "coming-soon": "Coming soon",
+    "premium-feature": "feature"
+  },
+  "enterprise-pricing": {
+    "title": "Enterprise",
+    "tier1_name": "PrivateGPT",
+    "tier1_description": "Hosted LLMs",
+    "tier1_feature1": "Keep your data private",
+    "tier1_feature2": "Llama 2",
+    "tier1_feature3": "Contact us for assistance",
+    "tier1_feature4": "On Prem or Private Cloud",
+    "summary": "summary",
+    "month": "month",
+    "sign-up": "Sign up",
+    "coming-soon": "Coming soon",
+    "contact-us": "Contact us"
+  },
+  "about": {
+    "header": "About"
+  },
+  "terms-of-service": {
+    "header": "Terms of service"
+  },
+  "privacy-policy": {
+    "header": "Privacy policy"
+  },
+  "footer": {
+    "about": "About",
+    "terms-of-service": "Terms of Service",
+    "copyright": "CMD Software Inc. All rights reserved."
+  }
+}

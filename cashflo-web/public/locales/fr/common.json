@@ -1,0 +1,124 @@
+{
+  "company-name": "Kalygo",
+  "log-in": "Connexion",
+  "close-menu": "Fermer le menu",
+  "open-main-menu": "Ouvrir le menu principal",
+  "stats": {
+    "headline": "Les documents n'ont pas besoin d'être compliqués",
+    "subheadline": "Kalygo vous fait gagner du temps pour que vous puissiez vous concentrer sur l'essentiel",
+    "stat1_headline": "Servir\nClientèle",
+    "stat1_subheadline": "Kalygo vous permet de restructurer vos workflows de révision de documents pour qu'ils soient 10x, voire 100x plus rapides que les pratiques standards.",
+    "stat2_headline": "Organiser\nImporte",
+    "stat2_subheadline": "Cela signifie plus de temps pour votre famille, vos amis, l'exercice, les activités parascolaires, le développement commercial, le soleil et bien plus encore.",
+    "stat3_headline": "Booster\nProductivité",
+    "stat3_subheadline": "Tirez parti simultanément des logiciels, de l'IA et de la collaboration pour augmenter votre productivité ou celle de votre équipe dès aujourd'hui."
+  },
+  "industries-we-serve": {
+    "title": "Industrie que nous servons",
+    "medical": {
+      "description-1": "Tout professionnel de la santé qui traite de gros volumes de documents trouvera Kalygo bénéfique dans",
+      "description-2": "gérer et digérer",
+      "description-3": "leurs données.",
+      "persona-1": "Des chercheurs",
+      "persona-1-subtitle": "Chercheurs médicaux, analystes et étudiants diplômés",
+      "persona-2": "Administrateurs",
+      "persona-2-subtitle": "Gestionnaires de cabinet, administrateurs et assistants",
+      "persona-3": "Cliniciens",
+      "persona-3-subtitle": "Médecins, ventes médicales et spécialistes des essais cliniques"
+    },
+    "higher-ed": {
+      "description-1": "L’enseignement supérieur donnera toujours la priorité",
+      "description-2": "pensée critique et pensée indépendante",
+      "description-3": "mais le moment est venu d’accepter des flux de travail documentaires accélérés.",
+      "persona-1": "Enseignement supérieur",
+      "persona-1-subtitle": "Chercheurs, étudiants diplômés, docteurs et administrateurs",
+      "persona-2": "Étudiants",
+      "persona-2-subtitle": "Baccalauréat ès arts et baccalauréat ès sciences",
+      "persona-3": "Les professeurs",
+      "persona-3-subtitle": "Enseignants et TA des Arts et des Sciences"
+    },
+    "research": {
+      "description-1": "La recherche a et nécessitera toujours",
+      "description-2": "pensée critique et pensée indépendante",
+      "description-3": "mais le moment est venu d’accepter des flux de travail documentaires accélérés.",
+      "persona-1": "UI/UX",
+      "persona-1-subtitle": "Intervieweurs UX et analystes UI",
+      "persona-2": "Des chercheurs",
+      "persona-2-subtitle": "Chercheurs UI/UX"
+    },
+    "law": {
+      "description-1": "Le monde juridique est rempli de",
+      "description-2": "quantités de documents ingérables",
+      "description-3": "et Kalygo est là pour faciliter une meilleure expérience au nom de la Justice.",
+      "persona-1": "Cabinets d'avocats",
+      "persona-1-subtitle": "Associés, associés et parajuristes"
+    },
+    "marketing": {
+      "description-1": "Le monde du marketing est rempli de",
+      "description-2": "quantités de données ingérables",
+      "description-3": "et Kalygo est là pour faciliter une meilleure expérience au nom des ventes.",
+      "persona-1": "Équipes marketing",
+      "persona-1-subtitle": "Collaborez avec votre équipe pour augmenter le retour sur investissement",
+      "persona-2": "Spécialistes du marketing par courrier électronique",
+      "persona-2-subtitle": "Amplifiez et personnalisez vos séquences",
+      "persona-3": "Spécialistes du marketing indépendants",
+      "persona-3-subtitle": "Développez votre capacité avec l'IA. assistance"
+    }
+  },
+  "pricing": {
+    "title": "Tarification",
+    "tier1_name": "Gratuit",
+    "tier1_description": "Fonctionnalités limitées",
+    "tier1_feature0": "3 crédits gratuits délivrés lors de votre inscription pour tester la plateforme",
+    "tier1_feature1": "Les comptes sont gratuits",
+    "tier1_feature2": "GPT-3",
+    "tier1_feature3": "Limite de taille de fichier de 1 MB avec crédits",
+    "tier1_feature4": "Parrainez des amis pour pouvoir gagner plus de crédits gratuits",
+    "tier2_name": "Entrée",
+    "tier2_description": "Toutes les fonctionnalités",
+    "tier2_feature0": "Équivaut au traitement d'environ 1.039 pages avec GPT-3 ou d'environ ~40 pages avec GPT-4",
+    "tier2_feature1": "Acheter des crédits après l'inscription",
+    "tier2_feature2": "Fonctionnalités payantes désactivées lorsque les crédits sont épuisés",
+    "tier2_feature3": "Fichiers PDF et TXT pris en charge",
+    "tier2_feature4": "GPT-3 et GPT-4",
+    "tier2_feature5": "Limite de taille de fichier de 40 MB",
+    "tier2_feature6": "$1,00 USD = 100 crédits",
+    "tier3_name": "Pro",
+    "tier3_description": "Standard, et plus encore.",
+    "tier3_feature0": "Équivaut au traitement d'environ ~2.078 pages avec GPT-3 ou d'environ ~81 pages avec GPT-4",
+    "tier3_feature1": "Acheter des crédits après l'inscription",
+    "tier3_feature2": "Fonctionnalités payantes désactivées lorsque les crédits sont épuisés",
+    "tier3_feature3": "Fichiers PDF et TXT pris en charge",
+    "tier3_feature4": "Toutes les fonctionnalités activées",
+    "summary": "Résumé",
+    "month": "mois",
+    "sign-up": "S'inscrire",
+    "coming-soon": "À venir",
+    "premium-feature": "fonctionnalité"
+  },
+  "enterprise-pricing": {
+    "title": "Entreprise",
+    "tier1_name": "PrivateGPT",
+    "tier1_description": "LLM hébergés",
+    "tier1_feature1": "Gardez vos données privées",
+    "tier1_feature2": "Appelle",
+    "summary": "résumé",
+    "month": "mois",
+    "sign-up": "S'inscrire",
+    "coming-soon": "À venir"
+  },
+  "about": {
+    "header": "À propos"
+  },
+  "terms-of-service": {
+    "header": "Conditions d'utilisation"
+  },
+  "privacy-policy": {
+    "header": "Politique de confidentialité"
+  },
+  "footer": {
+    "about": "À propos",
+    "terms-of-service": "Conditions d'utilisation",
+    "copyright": "CMD Software Inc. Tous les droits sont réservés."
+  }
+}

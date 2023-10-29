@@ -1,0 +1,53 @@
+{
+  "landing-page-headline": "Docs made simple",
+  "landing-page-headline-prefix": "Docs made",
+  "typewriter-word-1": "eDiscovery",
+  "typewriter-word-2": "Attorney-client privilege",
+  "typewriter-word-3": "Vetted A.I. assistance",
+  "typewriter-word-4": "Control your cases",
+  "industries": {
+    "medical": {
+      "landing-page-subheadline": "Kalygo helps medical players both big and small with tailored on-prem document management solutions accelerated by A.I.",
+      "typewriter-word-1": "Reports made easy",
+      "typewriter-word-2": "Trials made fast",
+      "typewriter-word-3": "Research made intuitive",
+      "typewriter-word-4": "Diagnostics made simple"
+    },
+    "law": {
+      "landing-page-subheadline": "Whether it comes to discovery, contract drafting, insight, or collaboration, the legal world will never be the same after experiencing LLM-powered document workflows",
+      "typewriter-word-1": "Contracts made easy",
+      "typewriter-word-2": "Briefs made fast",
+      "typewriter-word-3": "Discovery made simple",
+      "typewriter-word-4": "Diligence made intuitive"
+    },
+    "higher-ed": {
+      "landing-page-subheadline": "Kalygo is another tool to add to your belt when it comes to processing and repurposing large amounts text-based homework, assignments, research, and course material",
+      "typewriter-word-1": "Courses made simple",
+      "typewriter-word-2": "Homework made easy",
+      "typewriter-word-3": "Grading done fast",
+      "typewriter-word-4": "Education made intuitive"
+    },
+    "research": {
+      "landing-page-subheadline": "UI/UX Researchers Need Kalygo",
+      "typewriter-word-1": "Research done fast",
+      "typewriter-word-2": "Quick insights",
+      "typewriter-word-3": "Shareable reports",
+      "typewriter-word-4": "Tailored UI/UX"
+    },
+    "marketing": {
+      "landing-page-subheadline": "Marketers need Kalygo",
+      "typewriter-word-1": "Sequences done fast",
+      "typewriter-word-2": "Customized messaging",
+      "typewriter-word-3": "Shareable insights",
+      "typewriter-word-4": "Coordinate your campaigns"
+    }
+  },
+  "landing-page-subheadline": "Upload data and leverage cutting edge software that includes OCR, customizable prompting, summarization across documents, and collaboration workflows",
+  "sign-up": "Get Kalygo",
+  "its-free": "it's free",
+  "log-in": "Log in",
+  "try-kalygo-for-free": "Try for free",
+  "upload": "Upload",
+  "discover": "Discover",
+  "sign-up-with-google": "Sign up"
+}

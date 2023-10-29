@@ -1,0 +1,136 @@
+{
+  "company-name": "Kalygo",
+  "log-in": "Acceso",
+  "close-menu": "Cerrar menú",
+  "open-main-menu": "Abrir menú principal",
+  "stats": {
+    "headline": "Los documentos no necesitan ser complicados",
+    "subheadline": "Kalygo te ahorra tiempo para que puedas concentrarte en lo que importa",
+    "stat1_headline": "Atender\nClientela",
+    "stat1_subheadline": "Kalygo le permite reestructurar sus flujos de trabajo de revisión de documentos para que sean 10x o incluso 100x veces más rápidos que las prácticas estándar",
+    "stat2_headline": "Organizar\nAsuntos",
+    "stat2_subheadline": "Eso significa más tiempo para su familia, amigos, ejercicio, actividades extracurriculares, desarrollo empresarial, sol y mucho más.",
+    "stat3_headline": "Ganar\nCasos",
+    "stat3_subheadline": "Aproveche el software, la inteligencia artificial y la colaboración al mismo tiempo para aumentar su productividad y la de su equipo hoy"
+  },
+  "industries-we-serve": {
+    "title": "Industria a la que servimos",
+    "medical": {
+      "description-1": "Cualquier profesional médico que maneje grandes volúmenes de documentos encontrará que Kalygo es beneficioso para",
+      "description-2": "gestionar y digerir",
+      "description-3": "sus datos.",
+      "persona-1": "Investigadores",
+      "persona-1-subtitle": "Investigadores médicos, analistas y estudiantes de posgrado",
+      "persona-2": "Administradores",
+      "persona-2-subtitle": "Gerentes de práctica, administradores y asistentes",
+      "persona-3": "Médicos",
+      "persona-3-subtitle": "Médicos, especialistas en ventas médicas y ensayos clínicos"
+    },
+    "higher-ed": {
+      "description-1": "La Educación Superior siempre tendrá prioridad",
+      "description-2": "pensamiento crítico y pensamiento independiente",
+      "description-3": "pero ahora es el momento de aceptar flujos de trabajo de documentos acelerados.",
+      "persona-1": "Educación superior",
+      "persona-1-subtitle": "Investigadores, estudiantes de posgrado, doctorados y administradores",
+      "persona-2": "Estudiantes",
+      "persona-2-subtitle": "Licenciaturas en Artes y Licenciaturas en Ciencias",
+      "persona-3": "Profesores",
+      "persona-3-subtitle": "Profesores y Asistentes Técnicos de las Artes y las Ciencias"
+    },
+    "research": {
+      "description-1": "La investigación ha requerido y siempre requerirá",
+      "description-2": "pensamiento crítico y pensamiento independiente",
+      "description-3": "pero ahora es el momento de aceptar flujos de trabajo de documentos acelerados.",
+      "persona-1": "UI/UX",
+      "persona-1-subtitle": "Entrevistadores de UX y analistas de UI",
+      "persona-2": "Investigadores",
+      "persona-2-subtitle": "Investigadores UI/UX",
+      "persona-3": "Almas curiosas",
+      "persona-3-subtitle": "La aventura se encuentra con la investigación"
+    },
+    "law": {
+      "description-1": "El mundo legal está lleno de",
+      "description-2": "cantidades inmanejables de documentos",
+      "description-3": "y Kalygo está aquí para facilitar una mejor experiencia en nombre de la Justicia.",
+      "persona-1": "Bufetes de abogados",
+      "persona-1-subtitle": "Socios, asociados y asistentes legales",
+      "persona-2": "Descubrimiento",
+      "persona-2-subtitle": "Contratistas y asistentes legales",
+      "persona-3": "Tribunales",
+      "persona-3-subtitle": "Jueces, jurados y secretarios"
+    },
+    "marketing": {
+      "description-1": "El mundo del marketing está lleno de",
+      "description-2": "cantidades inmanejables de datos",
+      "description-3": "y Kalygo está aquí para facilitar una mejor experiencia en nombre de las ventas.",
+      "persona-1": "equipos de marketing",
+      "persona-1-subtitle": "Colabora con tu equipo para aumentar el ROI",
+      "persona-2": "Comercializadores de correo electrónico",
+      "persona-2-subtitle": "Amplifica y personaliza tus secuencias",
+      "persona-3": "Comercializadores independientes",
+      "persona-3-subtitle": "Amplíe su capacidad con A.I. asistencia"
+    }
+  },
+  "pricing": {
+    "title": "Precios",
+    "tier1_name": "Gratis",
+    "tier1_description": "Funciones limitadas",
+    "tier1_feature0": "3 créditos gratuitos emitidos al registrarte para que puedas probar la plataforma",
+    "tier1_feature1": "Cuentas son gratis",
+    "tier1_feature2": "GPT-3",
+    "tier1_feature3": "Límite de tamaño de archivo de 1 MB con créditos",
+    "tier1_feature4": "Recomiende amigos para ser elegibles para ganar más créditos gratis",
+    "tier2_name": "Inicio",
+    "tier2_description": "Todas las características",
+    "tier2_feature0": "Equivale a procesar ~1,039 páginas con GPT-3 o ~40 páginas con GPT-4",
+    "tier2_feature1": "Comprar créditos después de registrarse",
+    "tier2_feature2": "Funciones pagas deshabilitadas cuando se agotan los créditos",
+    "tier2_feature3": "Archivos PDF y TXT compatibles",
+    "tier2_feature4": "GPT-3 y GPT-4",
+    "tier2_feature5": "Límite de tamaño de archivo de 40 MB",
+    "tier2_feature6": "$1.00 USD = 100 créditos",
+    "tier3_name": "Pro",
+    "tier3_description": "Todas las características",
+    "tier3_feature0": "Equivale a procesar ~2,078 páginas con GPT-3 o ~81 páginas con GPT-4",
+    "tier3_feature1": "Comprar créditos después de registrarse",
+    "tier3_feature2": "Funciones pagas deshabilitadas cuando se agotan los créditos",
+    "tier3_feature3": "Archivos PDF y TXT compatibles",
+    "tier3_feature4": "GPT-3 y GPT-4",
+    "tier3_feature5": "Límite de tamaño de archivo de 40 MB",
+    "tier3_feature6": "$1.00 USD = 100 créditos",
+    "tier3_price": "$10",
+    "summary": "resumen",
+    "month": "mes",
+    "sign-up": "Inscribirse",
+    "coming-soon": "Muy pronto",
+    "premium-feature": "característica"
+  },
+  "enterprise-pricing": {
+    "title": "Empresa",
+    "tier1_name": "PrivadoGPT",
+    "tier1_description": "LLM alojados",
+    "tier1_feature1": "Mantenga sus datos privados",
+    "tier1_feature2": "Llama 2",
+    "tier1_feature3": "Contáctenos para asistencia",
+    "tier1_feature4": "En la nube local o privada",
+    "summary": "resumen",
+    "month": "mes",
+    "sign-up": "Inscribirse",
+    "coming-soon": "Muy pronto",
+    "contact-us": "Contáctenos"
+  },
+  "about": {
+    "header": "Acerca de"
+  },
+  "terms-of-service": {
+    "header": "Términos de servicio"
+  },
+  "privacy-policy": {
+    "header": "Política de privacidad"
+  },
+  "footer": {
+    "about": "Acerca de",
+    "terms-of-service": "Términos de servicio",
+    "copyright": "CMD Software Inc. Todos los derechos reservados."
+  }
+}

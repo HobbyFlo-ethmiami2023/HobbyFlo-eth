@@ -1,0 +1,46 @@
+{
+  "blog": {
+    "title": "Nosso blog",
+    "subtitle": "Saiba mais sobre Kalygo em nossa comunidade",
+    "scanning-modes": {
+      "title": "4 modos de digitalização de dados do Kalygo",
+      "description": "O molho de Kalygo está nas 4 técnicas de varredura de dados que ele suporta para alimentar dados em sua IA desejada. modelos.",
+      "category": "Aprendizado",
+      "author": {
+        "name": "Tad Duval"
+      }
+    },
+    "text-to-speech-teaser": {
+      "title": "Potenciais desenvolvimentos de conversão de texto em fala com a renomada empresa A11y, sediada em Maryland",
+      "description": "Uma empresa estabelecida que detém licenças comerciais para vários sistemas de IA de última geração. models manifestou interesse em comercializar sua propriedade intelectual com Kalygo.",
+      "category": "Desenvolvimento de negócios",
+      "author": {
+        "name": "Tad Duval",
+        "role": "Fundador"
+      }
+    }
+  },
+  "scanning-modes": {
+    "title": "Modos de digitalização de documentos do Kalygo",
+    "toc": "Índice",
+    "mode-1": "Cada geral",
+    "mode-2": "Cada um em pedaços",
+    "mode-3": "Geral",
+    "mode-4": "Por página",
+    "mode-1-description": "Este modo corta os dados de cada arquivo carregado em lote para que cada parte fique dentro do limite de contexto da IA. modelo que você está usando. O prompt especificado será aplicado a cada bloco sequencialmente, com a resposta de conclusão de cada bloco passada como contexto para o bloco subsequente. Opcionalmente, você pode especificar um 'prompt final' que é útil para aprimorar o resultado da digitalização em cada documento antes de apresentá-lo.",
+    "mode-1-emphasis": "Este modo é ótimo para ler livros ou extrair informações de dados lineares.",
+    "mode-2-description": "Este modo corta os dados em cada arquivo carregado para que cada parte fique dentro do limite de contexto da IA. modelo que você está usando. O prompt que você especificar será aplicado a cada pedaço independentemente dos outros pedaços, ou seja: em paralelo.",
+    "mode-2-emphasis": "Este modo é ótimo para gerar resumos rápidos das seções de cada documento carregado em lote ou para realizar pesquisas conceituais rápidas em cada documento de um lote.",
+    "mode-3-description": "Este modo é igual ao modo `Cada Geral`, exceto que emite um prompt adicional na saída de cada documento processado em um lote.",
+    "mode-3-emphasis": "Este modo é ótimo para obter uma compreensão geral de uma coleção de documentos.",
+    "mode-4-description": "Este modo está disponível apenas para formatos de documentos paginados como PDFs. Este modo aplica um prompt a cada página de cada documento carregado em lote. Se o resultado da conclusão de uma página o intriga, você pode facilmente obter o documento de origem de onde ela veio para verificar sua credibilidade.",
+    "mode-4-emphasis": "Este modo é ótimo para obter uma visão geral precisa e rastreável de uma coleção de documentos paginados."
+  },
+  "text-to-speech-teaser": {
+    "title": "Desenvolvimentos potenciais com a renomada empresa A11y sediada em Maryland",
+    "toc": "Índice",
+    "paragraph-1": "Uma renomada empresa A11y com sede em Maryland fez um brainstorming com Kalygo sobre o potencial de trabalhar em conjunto para desenvolver vários aplicativos para comercializar alguns dos recursos de IA. licenças modelo que obtiveram recentemente.",
+    "paragraph-2": "A IA os modelos mencionados são modelos de texto-fala de última geração desenvolvidos por um gigante anônimo da Big Tech.",
+    "paragraph-3": "Não sabemos como estes desenvolvimentos irão progredir, mas sentimos que era mais estratégico partilhar estas perspectivas entusiasmantes com a comunidade Kalygo."
+  }
+}

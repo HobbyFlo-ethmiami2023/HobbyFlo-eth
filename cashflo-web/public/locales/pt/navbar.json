@@ -1,0 +1,19 @@
+{
+  "navbar-use-cases": "Casos de uso",
+  "navbar-contracts": "Contratos",
+  "navbar-feedback": "Opinião",
+  "navbar-about": "Sobre",
+  "navbar-login": "Conecte-se",
+  "navbar-blog": "Blogue",
+  "dropdown": {
+    "industries": "Indústrias",
+    "specialties": "Especialidades",
+    "law": "Lei",
+    "medical": "Médico",
+    "higher-ed": "Educação superior",
+    "research": "Pesquisar",
+    "marketing": "Marketing",
+    "personal-injury": "Lesões Pessoais",
+    "family-law": "Lei de família"
+  }
+}

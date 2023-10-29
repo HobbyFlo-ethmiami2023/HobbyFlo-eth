@@ -1,0 +1,23 @@
+{
+  "the-feedback-is-appreciated": "O feedback é apreciado!",
+  "sign-up-success": "Verifique sua caixa de entrada de e-mail para verificação. Se você não vir o e-mail, verifique sua pasta de spam ou entre em contato com o suporte.",
+  "forgot-password-success": "Estamos enviando um link de redefinição!",
+  "sign-out-success": "Desconectado com sucesso",
+  "reset-password-success": "Redefinir senha com sucesso. Tente fazer login!",
+  "summary-returned-successfully": "Resumo devolvido com sucesso",
+  "successfully-changed-plan": "Plano alterado com sucesso",
+  "files-uploaded-for-summarization-complete": "Seus resumos estão sendo gerados. Você será notificado por e-mail quando todos os seus arquivos forem processados.",
+  "you-joined-the-mailing-list": "Você se juntou à lista de discussão!",
+  "vector-search-is-processing": "Sua pesquisa está sendo processada...",
+  "custom-request-is-processing": "Sua solicitação está sendo processada...",
+  "rag-request-is-processing": "Seu R.A.G. a solicitação está sendo processada...",
+  "custom-summary-is-processing": "Seu resumo está sendo processado...",
+  "chunking-is-processing": "Pedaços estão sendo gerados...",
+  "summary-v2-is-processing": "Seu resumo está sendo processado...",
+  "send-email-success": "A solicitação para enviar e-mail foi processada",
+  "create-referral-code-success": "Código de referência criado com sucesso",
+  "store-api-key-success": "Chaves de API armazenadas com sucesso",
+  "error": {
+    "something-unexpected-happened": "Something unexpected happened"
+  }
+}
