@@ -17,14 +17,14 @@ export const Hero = () => {
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4">
             <a
               rel="noopener noreferrer"
-              href="/dashboard"
+              href="/contract"
               className="px-8 py-3 text-lg font-semibold rounded bg-blue-600 text-white"
             >
               Enter app
             </a>
             <a
               rel="noopener noreferrer"
-              href="/about"
+              href="/contract"
               className="px-8 py-3 text-lg font-semibold border rounded border-black"
             >
               More info

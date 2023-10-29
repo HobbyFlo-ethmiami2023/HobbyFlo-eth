@@ -1,3 +1,4 @@
+import { infoToast } from "@/utility/toasts";
 import React from "react";
 
 export const ActionsWidget = () => {
@@ -13,10 +14,20 @@ export const ActionsWidget = () => {
           </div>
 
           <div className="flex space-x-5 items-center">
-            <button className="rounded-lg bg-blue-400 text-red-50 text-sm p-2 px-6 transform hover:scale-105 duration-300">
+            <button
+              onClick={() => {
+                infoToast("Request Arbitration");
+              }}
+              className="rounded-lg bg-blue-400 text-red-50 text-sm p-2 px-6 transform hover:scale-105 duration-300"
+            >
               Arbitrate
             </button>
-            <button className="rounded-lg bg-blue-400 text-red-50 text-sm p-2 px-6 transform hover:scale-105 duration-300">
+            <button
+              onClick={() => {
+                infoToast("Withdraw funds");
+              }}
+              className="rounded-lg bg-blue-400 text-red-50 text-sm p-2 px-6 transform hover:scale-105 duration-300"
+            >
               Withdraw Money
             </button>
           </div>
