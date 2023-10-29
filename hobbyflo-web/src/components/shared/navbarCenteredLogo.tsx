@@ -15,6 +15,7 @@ import { IndustriesCollapsibleSidenavOption } from "../indexComponents/navbar/in
 import { GoBook, GoHeart, GoLaw } from "react-icons/go";
 import { classNames } from "@/utility/misc/classNames";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { UnstoppableLoginButton } from "../indexComponents/navbar/unstoppableLoginButton";
 
 interface P {
   disableStickyTopNav?: boolean;
@@ -167,6 +168,7 @@ export function NavbarCenteredLogo(p: P) {
             {/* <button className="px-2 py-2 text-sm font-semibold rounded bg-blue-400 text-gray-900">
               Connect Wallet
             </button> */}
+            <UnstoppableLoginButton />
             <ConnectButton label="Sign In" />
           </div>
         </nav>
