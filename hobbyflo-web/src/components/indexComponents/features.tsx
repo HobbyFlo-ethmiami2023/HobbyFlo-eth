@@ -2,9 +2,9 @@ import React from "react";
 
 export const Features = () => {
   return (
-    <section className="dark:text-gray-100">
+    <section>
       <div className="container flex flex-col-reverse mx-auto lg:flex-row">
-        <div className="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5 bg-violet-400 text-gray-900">
+        <div className="flex flex-col px-6 py-8 space-y-6 rounded-sm sm:p-8 lg:p-12 lg:w-1/2 xl:w-2/5 bg-blue-600 text-white">
           <div className="flex space-x-2 sm:space-x-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ export const Features = () => {
         <div className="flex flex-col items-center justify-center  lg:w-1/2 xl:w-3/5">
           <div className="flex flex-col items-center justify-center p-4 md:p-8 lg:p-12">
             <img
-              src="flo_rida_sofa_960x540.png"
+              src="escrow_process.png"
               alt=""
               className="rounded-lg shadow-lg aspect-video sm:min-h-96"
             />

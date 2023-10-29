@@ -87,7 +87,7 @@ export default function LayoutDashboard({ children, account }: P) {
     {
       name: "Contract",
       href: "/contract",
-      icon: DocumentMagnifyingGlassIcon
+      icon: DocumentMagnifyingGlassIcon,
     },
     {
       name: "Transactions",
@@ -220,7 +220,7 @@ export default function LayoutDashboard({ children, account }: P) {
           {" Credits"}
         </span>
         <CircleStackIcon
-          className="text-violet-600 h-6 w-6"
+          className="text-blue-600 h-6 w-6"
           aria-label="Usage Credits Icon"
         />
       </>
@@ -284,7 +284,7 @@ export default function LayoutDashboard({ children, account }: P) {
                     </div>
                   </Transition.Child>
                   {/* Sidebar component, swap this element with another sidebar if you like */}
-                  <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-violet-600 px-6 pb-4">
+                  <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-blue-600 px-6 pb-4">
                     <div className="flex h-16 shrink-0 items-center">
                       <Link href="/">
                         {/* <Image
@@ -308,8 +308,8 @@ export default function LayoutDashboard({ children, account }: P) {
                                     item.href.split("/")[
                                       item.href.split("/").length - 1
                                     ] === current
-                                      ? "bg-violet-700 text-white"
-                                      : "text-violet-200 hover:text-white hover:bg-violet-700",
+                                      ? "bg-blue-700 text-white"
+                                      : "text-blue-200 hover:text-white hover:bg-blue-700",
                                     "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
                                   )}
                                 >
@@ -319,7 +319,7 @@ export default function LayoutDashboard({ children, account }: P) {
                                         item.href.split("/").length - 1
                                       ] === current
                                         ? "text-white"
-                                        : "text-violet-200 group-hover:text-white",
+                                        : "text-blue-200 group-hover:text-white",
                                       "h-6 w-6 shrink-0"
                                     )}
                                     aria-hidden="true"
@@ -336,13 +336,13 @@ export default function LayoutDashboard({ children, account }: P) {
                               href="/dashboard/settings"
                               className={classNames(
                                 "settings" === current
-                                  ? "bg-violet-700 text-white"
-                                  : "text-violet-200 hover:text-white hover:bg-violet-700",
+                                  ? "bg-blue-700 text-white"
+                                  : "text-blue-200 hover:text-white hover:bg-blue-700",
                                 "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
                               )}
                             >
                               <Cog6ToothIcon
-                                className="h-6 w-6 shrink-0 text-violet-200 group-hover:text-white"
+                                className="h-6 w-6 shrink-0 text-blue-200 group-hover:text-white"
                                 aria-hidden="true"
                               />
                               Settings
@@ -361,7 +361,7 @@ export default function LayoutDashboard({ children, account }: P) {
         {/* Static sidebar for desktop */}
         <div className="hidden lg:fixed lg:inset-y-0 lg:flex lg:w-72 lg:flex-col">
           {/* Sidebar component, swap this element with another sidebar if you like */}
-          <div className="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-violet-600 px-6 pb-4 z-0">
+          <div className="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 bg-blue-600 px-6 pb-4 z-0">
             <Link className="mt-2 p-1" href="/">
               <div className="flex h-16 shrink-0 items-center">
                 {/* <Image
@@ -389,8 +389,8 @@ export default function LayoutDashboard({ children, account }: P) {
                             item.href.split("/")[
                               item.href.split("/").length - 1
                             ] === current
-                              ? "bg-violet-700 text-white"
-                              : "text-violet-200 hover:text-white hover:bg-violet-700",
+                              ? "bg-blue-700 text-white"
+                              : "text-blue-200 hover:text-white hover:bg-blue-700",
                             "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
                           )}
                         >
@@ -400,7 +400,7 @@ export default function LayoutDashboard({ children, account }: P) {
                                 item.href.split("/").length - 1
                               ] === current
                                 ? "text-white"
-                                : "text-violet-200 group-hover:text-white",
+                                : "text-blue-200 group-hover:text-white",
                               "h-6 w-6 shrink-0"
                             )}
                             aria-hidden="true"
@@ -417,13 +417,13 @@ export default function LayoutDashboard({ children, account }: P) {
                       href="/dashboard/buy-credits"
                       className={classNames(
                         "buy-credits" === current
-                          ? "bg-violet-700 text-white"
-                          : "text-violet-200 hover:text-white hover:bg-violet-700",
+                          ? "bg-blue-700 text-white"
+                          : "text-blue-200 hover:text-white hover:bg-blue-700",
                         "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
                       )}
                     >
                       <CreditCardIcon
-                        className="h-6 w-6 shrink-0 text-violet-200 group-hover:text-white"
+                        className="h-6 w-6 shrink-0 text-blue-200 group-hover:text-white"
                         aria-hidden="true"
                       />
                       {t("dashboard-page:navigation.buy-credits")}
@@ -434,13 +434,13 @@ export default function LayoutDashboard({ children, account }: P) {
                       href="/settings"
                       className={classNames(
                         "settings" === current
-                          ? "bg-violet-700 text-white"
-                          : "text-violet-200 hover:text-white hover:bg-violet-700",
+                          ? "bg-blue-700 text-white"
+                          : "text-blue-200 hover:text-white hover:bg-blue-700",
                         "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold"
                       )}
                     >
                       <Cog6ToothIcon
-                        className="h-6 w-6 shrink-0 text-violet-200 group-hover:text-white"
+                        className="h-6 w-6 shrink-0 text-blue-200 group-hover:text-white"
                         aria-hidden="true"
                       />
                       Settings
