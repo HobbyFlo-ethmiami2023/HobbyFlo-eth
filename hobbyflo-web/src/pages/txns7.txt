@@ -1,0 +1,90 @@
+import { useState, useEffect } from "react";
+import { ethers } from "ethers";
+
+//react implmentation
+
+const Txns = () => {
+  const [txns, setTxns] = useState<{
+    val: ethers.TransactionResponse[];
+    loading: boolean;
+    err: any;
+  }>({
+    val: [],
+    loading: true,
+    err: null,
+  });
+
+  useEffect(() => {
+    async function fetch() {
+      try {
+        // Get the RPC provider
+        const provider = new ethers.providers.JsonRpcProvider("https://omniscient-evocative-fire.ethereum-sepolia.quiknode.pro/3213e3742c524aba34079e33f9df33bc89d34082");
+
+        const wallet = provider.getSigner();
+        const txns = await wallet.getTransactionCount();
+
+        const txnList = [];
+        for (let i = 0; i < txns; i++) {
+          const txn = await wallet.getTransaction(i);
+          txnList.push(txn);
+        }
+
+    
+        setTxns({
+          loading: false,
+          val: txnList,
+          err: null,
+        });
+      } catch (e) {
+        setTxns({
+          loading: false,
+          val: [],
+          err: e,
+        });
+      }
+    }
+
+    fetch();
+  }, []);
+
+  if (txns.loading) {
+    return <div>Loading...</div>;
+  } else if (txns.err) {
+    return <div>{txns.err}</div>;
+  } else {
+    return (
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Hash</th>
+              <th>From</th>
+              <th>To</th>
+              <th>Value</th>
+              <th>Gas Price</th>
+              <th>Gas Limit</th>
+              <th>Block Number</th>
+              <th>Timestamp</th>
+            </tr>
+          </thead>
+          <tbody>
+            {txns.val.map((txn) => (
+              <tr key={txn.hash}>
+                <td>{txn.hash}</td>
+                <td>{txn.from}</td>
+                <td>{txn.to}</td>
+                <td>{txn.value.toString()}</td>
+                <td>{txn.gasPrice.toString()}</td>
+                <td>{txn.gasLimit.toString()}</td>
+                <td>{txn.blockNumber}</td>
+                <td>{txn.timestamp}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+};
+
+export default Txns;

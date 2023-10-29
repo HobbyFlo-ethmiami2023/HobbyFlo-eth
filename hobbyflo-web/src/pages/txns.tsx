@@ -7,6 +7,7 @@ import { WindowLoader } from "@/components/shared/WindowLoader";
 import { ErrorInDashboard } from "@/components/shared/errorInDashboard";
 
 import { TxnsTable } from "@/components/shared/tables/TxnsTable";
+//wallet list defualt
 
 const Txns: NextPage = () => {
   const [txns, setTxns] = useState<{
