@@ -172,13 +172,13 @@ export default function LayoutDashboard({ children, account }: P) {
   ];
 
   const userNavigation = [
-    {
-      name: "Settings",
-      onClick: () => {
-        // signOut(router, t);
-        router.push("/dashboard/settings");
-      },
-    },
+    // {
+    //   name: "Settings",
+    //   onClick: () => {
+    //     // signOut(router, t);
+    //     router.push("/dashboard/settings");
+    //   },
+    // },
     // {
     //   name: t("dashboard-page:user-nav.sign-out"),
     //   onClick: () => {
@@ -328,7 +328,7 @@ export default function LayoutDashboard({ children, account }: P) {
                           </ul>
                         </li>
                         <ul className="mt-auto space-y-1">
-                          <li>
+                          {/* <li>
                             <Link
                               href="/dashboard/settings"
                               className={classNames(
@@ -344,7 +344,7 @@ export default function LayoutDashboard({ children, account }: P) {
                               />
                               Settings
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </ul>
                     </nav>
@@ -426,7 +426,7 @@ export default function LayoutDashboard({ children, account }: P) {
                       {t("dashboard-page:navigation.buy-credits")}
                     </Link>
                   </li> */}
-                  <li>
+                  {/* <li>
                     <Link
                       href="/settings"
                       className={classNames(
@@ -442,7 +442,7 @@ export default function LayoutDashboard({ children, account }: P) {
                       />
                       Settings
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </ul>
             </nav>

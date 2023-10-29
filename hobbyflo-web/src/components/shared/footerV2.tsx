@@ -5,8 +5,8 @@ export function Footer() {
 
   const navigation = {
     main: [
-      { name: "About", href: "/about" },
-      { name: "Terms of Service", href: "/terms-of-service" },
+      { name: "About", href: "/contract" },
+      // { name: "Terms of Service", href: "/terms-of-service" },
       // { name: "Privacy policy", href: "/privacy-policy" },
     ],
     social: [

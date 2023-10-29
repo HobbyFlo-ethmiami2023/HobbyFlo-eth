@@ -1,0 +1,66 @@
+import { useState, useEffect } from "react";
+import { ethers } from "ethers";
+import { wagmi } from "wagmi";
+import { TxnsTable } from "@/components/shared/tables/TxnsTable";
+
+//wallet list ethers and wagmi
+
+const Txns: React.FC = () => {
+  const [txns, setTxns] = useState<{
+    val: ethers.TransactionResponse[];
+    loading: boolean;
+    err: any;
+  }>({
+    val: [],
+    loading: true,
+    err: null,
+  });
+
+  useEffect(() => {
+    async function fetch() {
+      try {
+        // Get the connected wallet
+        const wallet = await wagmi.useConnect();
+
+        // Get the list of transactions from the wallet
+        const txns = await wallet.getTransactionCount();
+
+        // Iterate over the transactions and fetch them from the blockchain
+        const txnList = [];
+        for (let i = 0; i < txns; i++) {
+          const txn = await wallet.getTransaction(i);
+          txnList.push(txn);
+        }
+
+        // Set the state by the list of transactions
+        setTxns({
+          loading: false,
+          val: txnList,
+          err: null,
+        });
+      } catch (e) {
+        setTxns({
+          loading: false,
+          val: [],
+          err: e,
+        });
+      }
+    }
+
+    fetch();
+  }, []);
+
+  return (
+    <div>
+      {txns.loading ? (
+        <div>Loading...</div>
+      ) : txns.err ? (
+        <div>{txns.err}</div>
+      ) : (
+        <TxnsTable txns={txns.val} />
+      )}
+    </div>
+  );
+};
+
+export default Txns;
