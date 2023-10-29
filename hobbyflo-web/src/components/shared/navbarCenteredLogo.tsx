@@ -27,7 +27,7 @@ export function NavbarCenteredLogo(p: P) {
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "Dashboard", href: "/dashboard" },
+    { name: "Dashboard", href: "/contract" },
   ];
 
   return (
