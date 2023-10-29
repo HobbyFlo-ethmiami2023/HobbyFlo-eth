@@ -12,8 +12,8 @@ export const Hero = () => {
           />
         </div>
         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-          <h1 className="text-5xl font-bold leadi sm:text-6xl">Ca$hflo</h1>
-          <p className="mt-6 mb-8 text-lg sm:mb-12">A new legal system</p>
+          <h1 className="text-5xl font-bold leadi sm:text-6xl">HobbyFlo</h1>
+          <p className="mt-6 mb-8 text-lg sm:mb-12">Peer-to-Peer rentals</p>
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
             <a
               rel="noopener noreferrer"
