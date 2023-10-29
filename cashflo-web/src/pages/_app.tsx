@@ -31,6 +31,8 @@ import { pdfjs } from "react-pdf";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { AdminGuard } from "@/guards/AdminGuard";
 
+import { Providers } from './providers';
+
 pdfjs.GlobalWorkerOptions.workerSrc = `/pdf.worker.js`;
 
 // Add custom appProp type then use union to add it
@@ -70,9 +72,10 @@ const App = function ({ Component, pageProps }: CustomAppProps) {
       </Head>
 
       <ErrorBoundary>
+      <Providers>
         <GoogleOAuthProvider
-          clientId={process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID!}
-        >
+            clientId={process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID!}
+          >
           <AppWrapper>
             {Component.requireAuth ? (
               <AuthGuard>
@@ -89,6 +92,8 @@ const App = function ({ Component, pageProps }: CustomAppProps) {
           </AppWrapper>
         </GoogleOAuthProvider>
         <ToastContainer />
+
+      </Providers>
       </ErrorBoundary>
     </>
   );
