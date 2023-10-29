@@ -54,6 +54,15 @@ contract Deal {
         require(msg.value == escrow, "The deposit must match the escrow amount");
     }
 
+    function releaseEscrowToSellerAtClosingDate() external {
+  require(msg.sender == buyer, "Only the buyer can release escrow to seller at closing date");
+  require(arbitrationStatus == ArbitrationStatus.Pending, "Arbitration is in progress");
+     // Release the escrow funds to the seller
+  payable(seller).transfer(escrow);
+}
+
+
+
     // Start arbitration
     function startArbitration() external {
         require(msg.sender == buyer || msg.sender == seller, "Only the buyer or seller can start arbitration");
@@ -82,6 +91,7 @@ contract Deal {
   // Release the escrow funds to the winner
   if (winner != address(0)) {
     payable(winner).transfer(escrow);
+    
   }
 }
 }
