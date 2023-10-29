@@ -13,10 +13,10 @@ export function Error() {
       <div className="text-center">
         <p className="text-base font-semibold text-blue-600">400</p>
         <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-          {t("error:an-error-occurred")}
+          An error occurred
         </h1>
         <p className="mt-6 text-base leading-7 text-gray-600">
-          {t("error:looking-into-it")}
+          Looking into it
         </p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <button
@@ -25,7 +25,7 @@ export function Error() {
               window.location.replace("/");
             }}
           >
-            {t("error:back-to-home")}
+            Back to home
           </button>
           <button
             className="text-sm font-semibold text-gray-900"
@@ -33,7 +33,7 @@ export function Error() {
               window.location.replace("/");
             }}
           >
-            {t("error:contact-suppport")} <span aria-hidden="true">&rarr;</span>
+            Contact support<span aria-hidden="true">&rarr;</span>
           </button>
         </div>
       </div>
