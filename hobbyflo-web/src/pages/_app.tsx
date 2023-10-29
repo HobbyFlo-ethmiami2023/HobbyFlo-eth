@@ -31,7 +31,7 @@ import { pdfjs } from "react-pdf";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { AdminGuard } from "@/guards/AdminGuard";
 
-import { Providers } from './providers';
+import Providers from './providers';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `/pdf.worker.js`;
 
