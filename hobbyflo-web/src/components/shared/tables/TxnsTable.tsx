@@ -89,7 +89,7 @@ export function TxnsTable(p: P) {
                     <button
                       className="text-blue-600 hover:text-blue-900"
                       onClick={() => {
-                        router.push(`/interact`);
+                        router.push(`/contract-overview`);
                       }}
                     >
                       View
