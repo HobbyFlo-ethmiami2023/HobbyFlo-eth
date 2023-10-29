@@ -71,7 +71,7 @@ export const Features = () => {
             <div className="space-y-2">
               <p className="text-lg font-medium leadi">A.I.</p>
               <p className="leadi">
-                A.I. arbitration assitance is what speeds up the dispute
+                A.I. arbitration assistance is what speeds up the dispute
                 resolution process.
               </p>
             </div>

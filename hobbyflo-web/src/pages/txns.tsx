@@ -71,7 +71,7 @@ const Txns: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Dashboard</title>
+        <title>Transactions</title>
       </Head>
       <LayoutDashboard>{jsx}</LayoutDashboard>
     </>
