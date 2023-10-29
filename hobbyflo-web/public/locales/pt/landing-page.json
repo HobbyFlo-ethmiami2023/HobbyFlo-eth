@@ -1,0 +1,50 @@
+{
+  "landing-page-headline": "Documentos simplificados",
+  "landing-page-headline-prefix": "Documentos feitos",
+  "typewriter-word-1": "Descoberta eletrônica legal",
+  "typewriter-word-2": "Privilégio advogado-cliente",
+  "typewriter-word-3": "IA examinada assistência",
+  "typewriter-word-4": "Controle seus casos",
+  "industries": {
+    "medical": {
+      "landing-page-subheadline": "Kalygo ajuda empresas médicas, grandes e pequenas, com soluções personalizadas de gerenciamento de documentos locais, aceleradas por IA.",
+      "typewriter-word-1": "Relatórios facilitados",
+      "typewriter-word-2": "Testes feitos rapidamente",
+      "typewriter-word-3": "Pesquisa tornada intuitiva",
+      "typewriter-word-4": "Diagnóstico simplificado"
+    },
+    "law": {
+      "landing-page-subheadline": "Quer se trate de descoberta, elaboração de contratos, insights ou colaboração, o mundo jurídico nunca mais será o mesmo depois de experimentar fluxos de trabalho de documentos baseados em LLM",
+      "typewriter-word-1": "Contratos facilitados",
+      "typewriter-word-2": "Cuecas feitas rapidamente",
+      "typewriter-word-3": "Descoberta simplificada",
+      "typewriter-word-4": "Diligência tornada intuitiva"
+    },
+    "higher-ed": {
+      "landing-page-subheadline": "Kalygo é outra ferramenta para adicionar ao seu currículo quando se trata de processar e reaproveitar grandes quantidades de trabalhos de casa, tarefas, pesquisas e materiais de curso baseados em texto",
+      "typewriter-word-1": "Cursos simplificados",
+      "typewriter-word-2": "Lição de casa facilitada",
+      "typewriter-word-3": "Avaliação feita rapidamente",
+      "typewriter-word-4": "Educação tornada intuitiva"
+    },
+    "research": {
+      "landing-page-subheadline": "Pesquisadores de UI/UX precisam do Kalygo",
+      "typewriter-word-1": "Pesquisa feita rapidamente",
+      "typewriter-word-2": "Informações rápidas",
+      "typewriter-word-3": "Relatórios compartilháveis",
+      "typewriter-word-4": "UI/UX personalizada"
+    },
+    "marketing": {
+      "landing-page-subheadline": "Os profissionais de marketing precisam do Kalygo",
+      "typewriter-word-1": "Sequências feitas rapidamente",
+      "typewriter-word-2": "Mensagens personalizadas",
+      "typewriter-word-3": "Informações compartilháveis"
+    }
+  },
+  "landing-page-subheadline": "Faça upload de dados e aproveite software de ponta que inclui OCR, solicitações personalizáveis, resumo de documentos e fluxos de trabalho de colaboração",
+  "sign-up": "Obter Kalygo",
+  "its-free": "é grátis",
+  "log-in": "Log in",
+  "try-kalygo-for-free": "Experimentar gratuitamente",
+  "sign-up-with-google": "Inscrever-se"
+}

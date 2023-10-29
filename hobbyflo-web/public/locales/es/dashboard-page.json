@@ -1,0 +1,547 @@
+{
+  "dashboard": "Panel",
+  "welcome-to-kalygo": "Bienvenido",
+  "protected": "Protegido",
+  "navigation": {
+    "overview": "Hogar",
+    "summarize": "Resumir",
+    "templates": "Indicaciones",
+    "settings": "Ajustes",
+    "vector-search": "Busqueda inteligente",
+    "ocr": "LOC.",
+    "queue": "Mis solicitudes",
+    "my-documents": "Mis documentos",
+    "admin": "Administración",
+    "custom-request": "Solicitud personalizada",
+    "results": "Resultados",
+    "my-results": "Mis resultados",
+    "chunking-tool": "Herramienta de fragmentación",
+    "rag": "TRAPO.",
+    "buy-credits": "Compra creditos",
+    "send-email": "Enviar correo electrónico",
+    "text-to-speech": "Texto a voz",
+    "prompts": "Indicaciones",
+    "access-groups": "Asuntos"
+  },
+  "user-nav": {
+    "settings": "Ajustes",
+    "sign-out": "Desconectar",
+    "credit": "Crédito",
+    "credits": "Créditos",
+    "free-credit": "Crédito gratis",
+    "free-credits": "Créditos gratis"
+  },
+  "my-results": {
+    "title": "Mis resultados"
+  },
+  "index": {
+    "title": "Resultados",
+    "no-documents-yet": "¡No hay documentos todavía!",
+    "no-summaries-v1-yet": "Después de solicitar resúmenes (v1), se enumerarán aquí",
+    "no-summaries-v2-yet": "Después de solicitar resúmenes (v2), se enumerarán aquí",
+    "no-custom-requests-yet": "Después de solicitar solicitudes personalizadas, se enumerarán aquí.",
+    "credits": {
+      "summarization-credits": "Créditos de resumen",
+      "try-summarization-credits": "Pruebe la herramienta 'Resumen'",
+      "vector-search-credits": "Créditos de búsqueda inteligente gratuitos",
+      "try-vector-search-credits": "Pruebe la 'Búsqueda inteligente'",
+      "custom-request-credits": "Créditos de solicitud personalizados",
+      "try-custom-request-credits": "Pruebe la herramienta 'Solicitud personalizada'",
+      "credit-card-charges": "Cargos mensuales",
+      "more-info": "Más información"
+    },
+    "summaries": {
+      "title": "Resúmenes (v1)",
+      "subtitle": "Una visión general de sus resúmenes",
+      "view-all": "Ver todo",
+      "table": {
+        "id": "Identificación",
+        "filename": "Nombre del archivo",
+        "processed-length": "Longitud procesada",
+        "date": "Fecha",
+        "edit": "Editar",
+        "view": "Vista"
+      }
+    },
+    "summaries-v2": {
+      "title": "Resúmenes (v{{undefined}})",
+      "subtitle": "Una visión general de sus resúmenes",
+      "view-all": "Ver todo",
+      "table": {
+        "id": "Identificación",
+        "filename": "Nombre del archivo",
+        "processed-length": "Longitud procesada",
+        "date": "Fecha",
+        "edit": "Editar",
+        "view": "Vista"
+      }
+    },
+    "summaries-v3": {
+      "title": "Resúmenes (v{{undefined}})",
+      "subtitle": "Una visión general de sus resúmenes",
+      "view-all": "Ver todo",
+      "table": {
+        "id": "Identificación",
+        "filename": "Nombre del archivo",
+        "processed-length": "Longitud procesada",
+        "date": "Fecha",
+        "edit": "Editar",
+        "view": "Vista"
+      }
+    },
+    "custom-requests": {
+      "title": "Solicitudes personalizadas",
+      "subtitle": "Una descripción general de sus solicitudes personalizadas",
+      "table": {
+        "id": "Identificación",
+        "filename": "Nombre del archivo",
+        "processed-length": "Longitud procesada",
+        "date": "Fecha",
+        "edit": "Editar",
+        "view": "Vista"
+      }
+    },
+    "vector-searches": {
+      "title": "Búsquedas inteligentes",
+      "subtitle": "Una visión general de sus búsquedas",
+      "view-all": "Ver todo",
+      "table": {
+        "id": "Identificación",
+        "filename": "Nombre del archivo",
+        "processed-length": "Longitud procesada",
+        "date": "Fecha",
+        "edit": "Editar",
+        "view": "Vista"
+      }
+    }
+  },
+  "batch": {
+    "title": "Lote",
+    "description": "Todos los trabajos de este lote."
+  },
+  "summarize": {
+    "title": "Resumir",
+    "upload-a-file": "Seleccione Archivo",
+    "upload-files": "Selecciona archivos",
+    "upload-limits": "Archivos TXT y PDF de hasta 1 MB",
+    "clear": "Claro",
+    "summarize": "Resumir",
+    "received-quote": "Cotización recibida",
+    "summary-success": {
+      "original-length": "Longitud original",
+      "condensed-length": "Longitud condensada",
+      "summary": "Resumen",
+      "no-content": "Sin contenido"
+    }
+  },
+  "summarize-v2": {
+    "title": "Resumir",
+    "description": "'Resumir' le permite cargar de 1 a 10 documentos (.txt o .pdf). Las cargas del nivel gratuito están limitadas a 1 MB, mientras que las cargas del nivel pago están limitadas a 40 MB. Resúmelos con las opciones de personalización que especifiques en el paso 2.",
+    "choose-files": "Seleccionar archivos",
+    "customize-summary": "personalizar",
+    "chosen-files": "archivos elegidos",
+    "customizations": "Personalizaciones",
+    "run": "Correr",
+    "summarize": "Resumir",
+    "request": "Pedido",
+    "review": "Revisar",
+    "select-files": "Seleccionar",
+    "upload-limits": "Archivos TXT y PDF",
+    "loading": "Cargando..."
+  },
+  "summarize-v3": {
+    "title": "Resumir",
+    "description": "'Resumir' le permite cargar de {{undefined}} a {{undefined}} documentos (.txt o .pdf). Las cargas del nivel gratuito están limitadas a {{undefined}} MB, mientras que las cargas del nivel pago están limitadas a {{undefined}} MB. Resúmelos con las opciones de personalización que especifiques en el paso {{undefined}}.",
+    "choose-files": "Seleccionar archivos",
+    "customize-summary": "Personalizar",
+    "chosen-files": "Archivos elegidos",
+    "customizations": "Personalizaciones",
+    "run": "Correr",
+    "summarize": "Resumir",
+    "request": "Pedido"
+  },
+  "perform-vector-search": {
+    "title": "Búsqueda de vectores",
+    "choose-file": "Elija el archivo",
+    "select": "Seleccionar",
+    "review": "Revisar",
+    "review-widget": {
+      "similarity-search": "Búsqueda de similitud",
+      "unsupported-file-type": "Tipo de archivo no soportado"
+    }
+  },
+  "vector-search": {
+    "title": "Busqueda inteligente",
+    "requested": "Solicitado",
+    "time-requested-unknown": "Se desconoce la hora en que se solicitó la búsqueda.",
+    "filename": "Nombre del archivo",
+    "original-file": "Archivo original",
+    "download": "Descargar",
+    "query": "Consulta",
+    "matched-chunk": "Fragmento coincidente"
+  },
+  "ocr": {
+    "title": "LOC.",
+    "requested": "Solicitado",
+    "time-requested-unknown": "Se desconoce la hora en que se solicitó la búsqueda",
+    "filename": "Nombre del archivo",
+    "original-file": "Archivo original",
+    "download": "Descargar",
+    "query": "Consulta",
+    "matched-chunk": "Trozo emparejado"
+  },
+  "custom-request": {
+    "select-files": "Selecciona archivos",
+    "prompt": "Inmediato",
+    "prompt-placeholder-text": "Escriba aquí la solicitud personalizada que se aplicará a sus archivos",
+    "run": "Correr",
+    "upload-limits": "Archivos TXT y PDF",
+    "title": "Solicitud personalizada",
+    "requested": "Solicitado",
+    "filenames": "Nombres de archivo",
+    "total-completion-response": "Respuesta"
+  },
+  "custom-request-v2": {
+    "customizations": "Personalizaciones",
+    "choose-files": "Seleccionar archivos",
+    "provide-request": "personalizar",
+    "title": "Solicitud personalizada",
+    "description": "La 'Solicitud personalizada' le brinda el mayor control sobre sus documentos. Primero, cargue de 1 a 10 documentos (.txt o .pdf) con los que desee que Kalygo interactúe. Las cargas del nivel gratuito están limitadas a 1 MB, mientras que las cargas del nivel pago están limitadas a 40 MB. Luego, en el segundo paso, puedes usar el cuadro de texto para escribir cómo y qué debe hacer Kalygo con tus archivos o puedes probar una solicitud sugerida.",
+    "run": "Pedido",
+    "review": "Revisar",
+    "send": "Enviar",
+    "select-files": "Seleccionar",
+    "upload-limits": "Archivos TXT y PDF",
+    "save": "Ahorrar",
+    "next": "Próximo",
+    "prompt": "Inmediato",
+    "prompt-placeholder-text": "Edite o personalice la solicitud que se aplicará a sus archivos aquí",
+    "chosen-files": "Archivos elegidos",
+    "suggested-requests": "Sugirió",
+    "provided-request": "Indicación proporcionada",
+    "open-options": "Opciones abiertas",
+    "more-like-this": "Más como esto",
+    "select": "Seleccionar",
+    "not-this-one": "Este no"
+  },
+  "custom-request-v3": {
+    "customizations": "Personalizaciones",
+    "choose-files": "Seleccionar archivos",
+    "provide-request": "Personalizar",
+    "title": "Solicitud personalizada",
+    "description": "La 'Solicitud personalizada' le brinda el mayor control sobre sus documentos. Primero, cargue de {{undefined}} a {{undefined}} documentos (.txt o .pdf) con los que desee que Kalygo interactúe. Las cargas del nivel gratuito están limitadas a {{undefined}} MB, mientras que las cargas del nivel pago están limitadas a {{undefined}} MB. Luego, en el segundo paso, puedes usar el cuadro de texto para escribir cómo y qué debe hacer Kalygo con tus archivos o puedes probar una solicitud sugerida.",
+    "run": "Pedido",
+    "review": "Revisar",
+    "send": "Enviar",
+    "select-files": "Seleccionar",
+    "upload-limits": "Archivos TXT, PDF y CSV",
+    "save": "Ahorrar",
+    "next": "Próximo",
+    "prompt": "Inmediato",
+    "prompt-placeholder-text": "Edite o personalice la solicitud que se aplicará a sus archivos aquí",
+    "chosen-files": "Archivos elegidos",
+    "suggested-requests": "Sugirió",
+    "provided-request": "Aviso proporcionado",
+    "open-options": "Opciones abiertas",
+    "more-like-this": "Más como esto",
+    "select": "Seleccionar",
+    "not-this-one": "Este no"
+  },
+  "rag": {
+    "title": "TRAPO.",
+    "description": "La 'Generación Aumentada de Recuperación' le permite superponer bases de conocimientos sobre su LLM deseado. Cargue un archivo CSV con dos columnas, es decir: Col #{{undefined}} - 'PROMPT' y Col #{{undefined}} - 'RESPUESTA'",
+    "customizations": "Personalizaciones",
+    "query": "Consulta",
+    "choose-file": "Elija el archivo",
+    "provide-request": "Personalizar",
+    "run": "Pedido",
+    "review": "Revisar",
+    "response": "Respuesta",
+    "send": "Enviar",
+    "select-file": "Seleccionar",
+    "upload-limits": "Archivo TXT o PDF",
+    "save": "Ahorrar",
+    "next": "Próximo",
+    "prompt": "Inmediato",
+    "prompt-placeholder-text": "Edite o personalice la solicitud que se aplicará a sus archivos aquí",
+    "chosen-file": "Archivo elegido",
+    "suggested-requests": "Sugirió",
+    "provided-request": "Aviso proporcionado",
+    "open-options": "Opciones abiertas",
+    "more-like-this": "Más como esto",
+    "select": "Seleccionar",
+    "not-this-one": "Este no"
+  },
+  "chunking-tool": {
+    "title": "Herramienta de fragmentación",
+    "description": "La 'Herramienta de fragmentación' le permite seleccionar un archivo y especificar el modelo que le gustaría usar para procesar su archivo. Después de proporcionar estos detalles, Kalygo extraerá el texto y cortará el archivo para que cada parte sea ingerible en el sistema de I.A. modelo especificado.",
+    "choose-files": "Seleccionar archivos",
+    "choose-file": "Elija el archivo",
+    "provide-details": "Proporcionar detalles",
+    "chunk": "Pedazo",
+    "chosen-files": "Archivos elegidos",
+    "chosen-file": "Archivo elegido"
+  },
+  "prompts": {
+    "title": "Indicaciones",
+    "no-prompts-yet": "Aún no hay mensajes",
+    "no-prompts-found": "No se encontraron mensajes"
+  },
+  "prompt": {
+    "title": "Inmediato"
+  },
+  "queue": {
+    "title": "Mis solicitudes",
+    "nothing-found": "Nada Encontrado",
+    "job-status": "estado del trabajo",
+    "file-name": "Nombre del archivo",
+    "file-names": "Nombres de archivo",
+    "requested-at": "Solicitado en",
+    "processed-on": "Procesado el",
+    "remove": "Eliminar",
+    "retry": "Rever",
+    "view": "Vista",
+    "job-type": "Tipo",
+    "vector-search": {
+      "query": "Consulta"
+    },
+    "custom-request": {
+      "prompt": "Inmediato"
+    },
+    "custom-request-v3": {
+      "prompt": "Inmediato",
+      "scan-mode": "Modo de escaneo"
+    },
+    "summary-v2": {
+      "mode": "Modo"
+    },
+    "summary-v3": {
+      "mode": "Modo",
+      "scan-mode": "Modo de escaneo"
+    }
+  },
+  "summary": {
+    "title": "Resumen",
+    "requested": "Solicitado",
+    "time-requested-unknown": "Se desconoce la hora a la que se solicitó el resumen",
+    "filename": "Nombre del archivo",
+    "original-length": "Longitud original",
+    "condensed-length": "Longitud condensada",
+    "content": "Contenido"
+  },
+  "summary-v2": {
+    "prompt": "Inmediato",
+    "mode": "Modo",
+    "model": "Modelo",
+    "language": "Idioma",
+    "format": "Formato",
+    "share-modal": {
+      "title": "Compartir",
+      "email": "Correo electrónico"
+    }
+  },
+  "summary-v3": {
+    "prompt": "Inmediato",
+    "mode": "Modo",
+    "model": "Modelo",
+    "language": "Idioma",
+    "format": "Formato",
+    "batch-id": "ID del lote",
+    "view-batch": "Ver lote",
+    "share-modal": {
+      "title": "Compartir",
+      "email": "Correo electrónico"
+    }
+  },
+  "custom-request-v3-result": {
+    "title": "Solicitud personalizada",
+    "requested": "Solicitado",
+    "time-requested-unknown": "Se desconoce el tiempo solicitado",
+    "filename": "Nombre del archivo",
+    "original-length": "Longitud original",
+    "condensed-length": "Longitud condensada",
+    "content": "Contenido",
+    "scan-mode": "Modo de escaneo",
+    "model": "Modelo",
+    "prompt": "Inmediato"
+  },
+  "rag-result": {
+    "title": "TRAPO.",
+    "prompt": "Inmediato",
+    "mode": "Modo",
+    "model": "Modelo",
+    "language": "Idioma",
+    "format": "Formato",
+    "share-modal": {
+      "title": "Compartir",
+      "email": "Correo electrónico"
+    },
+    "requested": "Solicitado",
+    "filename": "Nombre del archivo",
+    "download": "Descargar"
+  },
+  "access-groups": {
+    "title": "Asuntos",
+    "description": "Un asunto es una colección de documentos, A.I. salidas y avisos. Cualquier correo electrónico asociado con el asunto puede ver todos los datos del asunto, pero solo el creador de un dato particular del asunto puede editarlo.",
+    "no-groups-found": "No se encontraron asuntos",
+    "view": "Vista",
+    "delete": "Borrar",
+    "create": "crear nueva materia",
+    "name": "Nombre",
+    "new-access-group": "Materia nueva"
+  },
+  "docs-table": {
+    "no-docs-found": "No se encontraron documentos",
+    "new-doc": "Nuevo documento",
+    "new-doc-modal": {
+      "title": "Nuevo documento",
+      "name": "¿Nombre del archivo?",
+      "name-placeholder": "Esta será un área de arrastrar y soltar"
+    }
+  },
+  "jobs-table": {
+    "no-jobs-found": "No se encontraron trabajos",
+    "new-job": "Nuevo trabajo",
+    "new-job-modal": {
+      "title": "Nuevo trabajo"
+    }
+  },
+  "admin": {
+    "title": "Descripción general",
+    "accounts": {
+      "title": "Cuentas"
+    },
+    "account": {
+      "title": "Cuenta",
+      "credits": {
+        "title": "Créditos",
+        "summary": "Resumen",
+        "summaries": "Resúmenes",
+        "custom-request": "Solicitud personalizada",
+        "custom-requests": "Solicitudes personalizadas",
+        "vector-search": "Búsqueda de vectores",
+        "vector-searches": "Búsquedas vectoriales",
+        "usage-credit": "Crédito de uso",
+        "usage-credits": "Créditos de uso"
+      },
+      "context": {
+        "add": "Agregar",
+        "upload": "Subir"
+      }
+    },
+    "logins": {
+      "title": "Inicios de sesión"
+    },
+    "paid-accounts": {
+      "title": "Cuentas Pagadas"
+    },
+    "charges": {
+      "title": "Cargos"
+    }
+  },
+  "send-email": {
+    "title": "Enviar correo electrónico",
+    "description": "Envía un correo electrónico hiperpersonalizado",
+    "greeting": "Saludo",
+    "paragraph1": "Párrafo 1"
+  },
+  "buy-credits": {
+    "title": "Compra creditos",
+    "description": "100 créditos equivalen a $1,00 USD de uso, al igual que los puntos de una tarjeta de crédito estándar. Honorarios no incluidos.",
+    "select-amount": "Cantidad de créditos",
+    "payment-method": "Método de pago",
+    "review": "Revisar",
+    "purchase": "Compra",
+    "get-credits": "Obtener créditos",
+    "complete-purchase": "Compra completa"
+  },
+  "settings": {
+    "purchase-history": {
+      "title": "Historial de compras",
+      "description": "El historial de las transacciones de su cuenta en la plataforma."
+    },
+    "usage-credits": {
+      "credits": "Créditos",
+      "credit": "Crédito",
+      "title": "Créditos"
+    },
+    "free-credits": {
+      "title": "Créditos gratis",
+      "summaries": "Resúmenes",
+      "summary": "Resumen",
+      "vector-searches": "Búsquedas inteligentes",
+      "vector-search": "Busqueda inteligente",
+      "custom-request-credit": "Solicitud personalizada",
+      "custom-request-credits": "Solicitudes personalizadas"
+    },
+    "personal": {
+      "title": "Personal",
+      "first-name": "Nombre de pila",
+      "last-name": "Apellido",
+      "email": "Correo electrónico",
+      "save": "Ahorrar"
+    },
+    "referral-code": {
+      "title": "Código de referencia",
+      "code": "Código",
+      "first-name": "Nombre de pila",
+      "last-name": "Apellido",
+      "email": "Correo electrónico",
+      "save": "Ahorrar",
+      "generate": "Generar",
+      "view-your-referral-codes": "Ver sus códigos de referencia",
+      "description": "Aquí están todos los códigos de referencia que ha generado."
+    },
+    "referral-codes": {
+      "title": "Códigos de referencia",
+      "description": "Aquí están todos los códigos de referencia que ha generado.",
+      "link": "Copiar link"
+    },
+    "payment": {
+      "title": "Pago",
+      "no-card": "Sin tarjeta",
+      "get-started": "Comience guardando su tarjeta con Stripe",
+      "new-card": "Nueva tarjeta",
+      "delete-card": "Borrar",
+      "new-card-modal": {
+        "card-details": "Detalles de tarjeta",
+        "card-number": "Número de tarjeta",
+        "expiration-date": "Fecha de caducidad",
+        "cvv": "CVV/CVC",
+        "security-code": "Código de seguridad",
+        "save": "Ahorrar",
+        "cancel": "Cancelar"
+      }
+    },
+    "api-keys": {
+      "title": "Claves API",
+      "save": "Ahorrar",
+      "your-api-keys": "Tus claves API",
+      "your-api-keys-desc": "Cuando utiliza varias herramientas en la suite de Kalygo, se pueden utilizar sus claves API. Esto reduce sus costos y también aumenta el rendimiento de sus datos. Almacenamos sus claves API cifradas en reposo mediante AWS Secrets Manager y sus claves API se extraen dinámicamente cuando es necesario para protegerlas de verse comprometidas. Podemos proporcionar una auditoría de acceso de sus claves API si lo solicita.",
+      "OPEN_AI_API_KEY": "OPEN_AI_API_KEY",
+      "OPEN_AI_API_KEY-placeholder": "Tu OPEN_AI_API_KEY",
+      "AWS_SES_API_KEY": "AWS_SES_API_KEY",
+      "AWS_SES_API_KEY-placeholder": "Su AWS_ACCESS_KEY para SES"
+    },
+    "subscription": {
+      "title": "Suscripción",
+      "change": "Cambiar",
+      "switch-plan": "cambiar de plan",
+      "cancel": "Cancelar",
+      "you-are-currently-on": "Actualmente estás en:"
+    },
+    "delete-account": {
+      "title": "Borrar cuenta",
+      "you-can-mark-your-account": "Puede marcar su cuenta para eliminarla aquí.",
+      "delete-my-account": "Borrar mi cuenta",
+      "delete-account-modal": {
+        "are-you-sure": "¿Está seguro de que desea eliminar su cuenta?",
+        "cancel": "Cancelar",
+        "delete": "Borrar"
+      }
+    },
+    "error": "Ocurrió un error al cargar la configuración"
+  },
+  "unknown-error": "Error desconocido",
+  "coming-soon": "¡Muy pronto!"
+}

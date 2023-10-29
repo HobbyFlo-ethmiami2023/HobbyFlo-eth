@@ -1,0 +1,561 @@
+{
+  "dashboard": "Dashboard",
+  "welcome-to-kalygo": "Welcome",
+  "protected": "Protected",
+  "navigation": {
+    "overview": "Home",
+    "summarize": "Summarize",
+    "templates": "Prompts",
+    "settings": "Settings",
+    "vector-search": "Smart Search",
+    "ocr": "O.C.R.",
+    "queue": "My Requests",
+    "my-documents": "My Documents",
+    "admin": "Admin",
+    "custom-request": "Custom Request",
+    "results": "Results",
+    "my-results": "My Results",
+    "chunking-tool": "Chunking Tool",
+    "rag": "R.A.G.",
+    "buy-credits": "Buy Credits",
+    "send-email": "Send Email",
+    "text-to-speech": "Text-to-Speech",
+    "prompts": "Prompts",
+    "access-groups": "Matters"
+  },
+  "user-nav": {
+    "settings": "Settings",
+    "sign-out": "Sign out",
+    "credit": "Credit",
+    "credits": "Credits",
+    "free-credit": "Free Credit",
+    "free-credits": "Free Credits"
+  },
+  "my-results": {
+    "title": "My Results"
+  },
+  "index": {
+    "title": "Results",
+    "no-documents-yet": "No Documents Yet!",
+    "no-summaries-v1-yet": "After requesting summaries (v1) they will be listed here",
+    "no-summaries-v2-yet": "After requesting summaries (v2) they will be listed here",
+    "no-custom-requests-yet": "After requesting custom requests they will be listed here",
+    "credits": {
+      "summarization-credits": "Summarization Credits",
+      "try-summarization-credits": "Try 'Summary' tool",
+      "vector-search-credits": "Free Smart Search Credits",
+      "try-vector-search-credits": "Try 'Smart Search'",
+      "custom-request-credits": "Custom Request Credits",
+      "try-custom-request-credits": "Try 'Custom Request' tool",
+      "credit-card-charges": "Monthly Charges",
+      "more-info": "More information"
+    },
+    "summaries": {
+      "title": "Summaries (v1)",
+      "subtitle": "An overview of your summaries",
+      "view-all": "View all",
+      "table": {
+        "id": "Id",
+        "filename": "File name",
+        "processed-length": "Processed Length",
+        "date": "Date",
+        "edit": "Edit",
+        "view": "View"
+      }
+    },
+    "summaries-v2": {
+      "title": "Summaries (v2)",
+      "subtitle": "An overview of your summaries",
+      "view-all": "View all",
+      "table": {
+        "id": "Id",
+        "filename": "File name",
+        "processed-length": "Processed Length",
+        "date": "Date",
+        "edit": "Edit",
+        "view": "View"
+      }
+    },
+    "summaries-v3": {
+      "title": "Summaries (v3)",
+      "subtitle": "An overview of your summaries",
+      "view-all": "View all",
+      "table": {
+        "id": "Id",
+        "filename": "File name",
+        "processed-length": "Processed Length",
+        "date": "Date",
+        "edit": "Edit",
+        "view": "View"
+      }
+    },
+    "custom-requests": {
+      "title": "Custom Requests",
+      "subtitle": "An overview of your custom requests",
+      "table": {
+        "id": "Id",
+        "filename": "File name",
+        "processed-length": "Processed Length",
+        "date": "Date",
+        "edit": "Edit",
+        "view": "View"
+      }
+    },
+    "custom-requests-v3": {
+      "title": "Custom Requests (v3)",
+      "subtitle": "An overview of your custom requests",
+      "table": {
+        "view": "View"
+      }
+    },
+    "vector-searches": {
+      "title": "Smart Searches",
+      "subtitle": "An overview of your searches",
+      "view-all": "View all",
+      "table": {
+        "id": "Id",
+        "filename": "Filename",
+        "processed-length": "Processed Length",
+        "date": "Date",
+        "edit": "Edit",
+        "view": "View"
+      }
+    }
+  },
+  "batch": {
+    "title": "Batch",
+    "description": "All the jobs in this batch"
+  },
+  "summarize": {
+    "title": "Summarize",
+    "upload-a-file": "Select file",
+    "upload-files": "Select files",
+    "upload-limits": "TXT & PDF files up to 1 MB",
+    "clear": "Clear",
+    "summarize": "Summarize",
+    "received-quote": "Received quote",
+    "summary-success": {
+      "original-length": "Original Length",
+      "condensed-length": "Condensed Length",
+      "summary": "Summary",
+      "no-content": "No content"
+    }
+  },
+  "summarize-v2": {
+    "title": "Summarize",
+    "description": "'Summarize' allows you to upload 1 to 10 documents (.txt or .pdf). Free Tier uploads are limited to 1MB while Paid Tier uploads are limited to 40MB. Summarize them with the customization options you specify in step 2.",
+    "choose-files": "Choose files",
+    "customize-summary": "Customize",
+    "chosen-files": "Chosen files",
+    "customizations": "Customizations",
+    "run": "Run",
+    "summarize": "Summarize",
+    "request": "Request",
+    "review": "Review",
+    "select-files": "Select",
+    "upload-limits": "TXT & PDF files",
+    "loading": "Loading..."
+  },
+  "summarize-v3": {
+    "title": "Summarize",
+    "description": "'Summarize' allows you to upload 1 to 10 documents (.txt or .pdf). Free Tier uploads are limited to 1MB while Paid Tier uploads are limited to 40MB. Summarize them with the customization options you specify in step 2.",
+    "choose-files": "Choose files",
+    "customize-summary": "Customize",
+    "chosen-files": "Chosen files",
+    "customizations": "Customizations",
+    "run": "Run",
+    "summarize": "Summarize",
+    "request": "Request",
+    "review": "Review",
+    "select-files": "Select",
+    "upload-limits": "TXT, PDF, and CSV files",
+    "loading": "Loading..."
+  },
+  "perform-vector-search": {
+    "title": "Vector Search",
+    "choose-file": "Choose file",
+    "select": "Select",
+    "review": "Review",
+    "review-widget": {
+      "similarity-search": "Similarity search",
+      "unsupported-file-type": "Unsupported file type"
+    }
+  },
+  "vector-search": {
+    "title": "Smart Search",
+    "requested": "Requested",
+    "time-requested-unknown": "The time the search was requested is unknown",
+    "filename": "Filename",
+    "original-file": "Original file",
+    "download": "Download",
+    "query": "Query",
+    "matched-chunk": "Matched Chunk"
+  },
+  "ocr": {
+    "title": "O.C.R.",
+    "requested": "Requested",
+    "time-requested-unknown": "The time the search was requested is unknown",
+    "filename": "Filename",
+    "original-file": "Original file",
+    "download": "Download",
+    "query": "Query",
+    "matched-chunk": "Matched Chunk"
+  },
+  "custom-request": {
+    "select-files": "Select files",
+    "prompt": "Prompt",
+    "prompt-placeholder-text": "Write the custom request that will be applied to your files here",
+    "run": "Run",
+    "upload-limits": "TXT & PDF files",
+    "title": "Custom Request",
+    "requested": "Requested",
+    "filenames": "File names",
+    "total-completion-response": "Response"
+  },
+  "custom-request-v2": {
+    "customizations": "Customizations",
+    "choose-files": "Choose files",
+    "provide-request": "Customize",
+    "title": "Custom Request",
+    "description": "'Custom Request' gives you the most control over your documents. First, upload 1 to 10 documents (.txt or .pdf) you want Kalygo to interact with. Free Tier uploads are limited to 1MB while Paid Tier uploads are limited to 40MB. Then in the second step you can use the text box to write out how and what Kalygo should do with your files or you can try out a suggested request.",
+    "run": "Request",
+    "review": "Review",
+    "send": "Send",
+    "select-files": "Select",
+    "upload-limits": "TXT & PDF files",
+    "save": "Save",
+    "next": "Next",
+    "prompt": "Prompt",
+    "prompt-placeholder-text": "Edit or customize the request that will be applied to your files here",
+    "chosen-files": "Chosen files",
+    "suggested-requests": "Suggested",
+    "provided-request": "Provided Prompt",
+    "open-options": "Open options",
+    "more-like-this": "More like this",
+    "select": "Select",
+    "not-this-one": "Not this one"
+  },
+  "custom-request-v3": {
+    "customizations": "Customizations",
+    "choose-files": "Choose files",
+    "provide-request": "Customize",
+    "title": "Custom Request",
+    "description": "'Custom Request' gives you the most control over your documents. First, upload 1 to 10 documents (.txt or .pdf) you want Kalygo to interact with. Free Tier uploads are limited to 1MB while Paid Tier uploads are limited to 40MB. Then in the second step you can use the text box to write out how and what Kalygo should do with your files or you can try out a suggested request.",
+    "run": "Request",
+    "review": "Review",
+    "send": "Send",
+    "select-files": "Select",
+    "upload-limits": "TXT, PDF, and CSV files",
+    "save": "Save",
+    "next": "Next",
+    "prompt": "Prompt",
+    "prompt-placeholder-text": "Edit or customize the request that will be applied to your files here",
+    "chosen-files": "Chosen files",
+    "suggested-requests": "Suggested",
+    "provided-request": "Provided Prompt",
+    "open-options": "Open options",
+    "more-like-this": "More like this",
+    "select": "Select",
+    "not-this-one": "Not this one"
+  },
+  "rag": {
+    "title": "R.A.G.",
+    "description": "'Retrieval Augmented Generation' allows you to layer knowledge bases on top of your desired LLM. Upload a CSV file with two columns ie: Col #1 - 'PROMPT' & Col #2 - 'RESPONSE'",
+    "customizations": "Customizations",
+    "query": "Query",
+    "choose-file": "Choose file",
+    "provide-request": "Customize",
+    "run": "Request",
+    "review": "Review",
+    "response": "Response",
+    "send": "Send",
+    "select-file": "Select",
+    "upload-limits": "TXT or PDF file",
+    "save": "Save",
+    "next": "Next",
+    "prompt": "Prompt",
+    "prompt-placeholder-text": "Edit or customize the request that will be applied to your files here",
+    "chosen-file": "Chosen file",
+    "suggested-requests": "Suggested",
+    "provided-request": "Provided Prompt",
+    "open-options": "Open options",
+    "more-like-this": "More like this",
+    "select": "Select",
+    "not-this-one": "Not this one"
+  },
+  "chunking-tool": {
+    "title": "Chunking Tool",
+    "description": "The 'Chunking Tool' allows you to select a file and specify the model you would like use to process your file. After providing these details, Kalygo will extract the text and cut up the file so that each part of it is ingestable into the A.I. model specified.",
+    "choose-files": "Choose files",
+    "choose-file": "Choose file",
+    "provide-details": "Provide Details",
+    "chunk": "Chunk",
+    "chosen-files": "Chosen files",
+    "chosen-file": "Chosen file"
+  },
+  "prompts": {
+    "title": "Prompts",
+    "no-prompts-yet": "No prompts yet",
+    "no-prompts-found": "No prompts found"
+  },
+  "prompt": {
+    "title": "Prompt"
+  },
+  "queue": {
+    "title": "My Requests",
+    "nothing-found": "Nothing found",
+    "job-status": "Job status",
+    "file-name": "File name",
+    "file-names": "File names",
+    "requested-at": "Requested at",
+    "processed-on": "Processed on",
+    "remove": "Remove",
+    "retry": "Retry",
+    "view": "View",
+    "job-type": "Type",
+    "vector-search": {
+      "query": "Query"
+    },
+    "custom-request": {
+      "prompt": "Prompt"
+    },
+    "custom-request-v3": {
+      "prompt": "Prompt",
+      "scan-mode": "Scan Mode"
+    },
+    "summary-v2": {
+      "mode": "Mode"
+    },
+    "summary-v3": {
+      "mode": "Mode",
+      "scan-mode": "Scan Mode"
+    }
+  },
+  "summary": {
+    "title": "Summary",
+    "requested": "Requested",
+    "time-requested-unknown": "The time the summary was requested is unknown",
+    "filename": "Filename",
+    "original-length": "Original Length",
+    "condensed-length": "Condensed Length",
+    "content": "Content"
+  },
+  "summary-v2": {
+    "prompt": "Prompt",
+    "mode": "Mode",
+    "model": "Model",
+    "language": "Language",
+    "format": "Format",
+    "share-modal": {
+      "title": "Share",
+      "email": "Email"
+    }
+  },
+  "summary-v3": {
+    "prompt": "Prompt",
+    "mode": "Mode",
+    "model": "Model",
+    "language": "Language",
+    "format": "Format",
+    "batch-id": "Batch ID",
+    "view-batch": "View Batch",
+    "share-modal": {
+      "title": "Share",
+      "email": "Email"
+    }
+  },
+  "custom-request-v3-result": {
+    "title": "Custom Request",
+    "requested": "Requested",
+    "time-requested-unknown": "Time requested is unknown",
+    "filename": "File name",
+    "original-length": "Original Length",
+    "condensed-length": "Condensed Length",
+    "content": "Content",
+    "scan-mode": "Scan Mode",
+    "model": "Model",
+    "prompt": "Prompt"
+  },
+  "rag-result": {
+    "title": "R.A.G.",
+    "prompt": "Prompt",
+    "mode": "Mode",
+    "model": "Model",
+    "language": "Language",
+    "format": "Format",
+    "share-modal": {
+      "title": "Share",
+      "email": "Email"
+    },
+    "requested": "Requested",
+    "filename": "File name",
+    "download": "Download",
+    "kb": "Knowledge Base"
+  },
+  "access-groups": {
+    "title": "Matters",
+    "description": "A matter is a collection of documents, A.I. outputs, and prompts. Any email associated with the matter can view all the data in the matter but only the creator of a particular piece of data in the matter can edit it.",
+    "no-groups-found": "No matters found",
+    "view": "View",
+    "delete": "Delete",
+    "create": "Create new matter",
+    "name": "Name",
+    "new-access-group": "New Matter"
+  },
+  "docs-table": {
+    "no-docs-found": "No docs found",
+    "new-doc": "New doc",
+    "new-doc-modal": {
+      "title": "New doc",
+      "name": "Name of file?",
+      "name-placeholder": "This will be a drag-N-drop area"
+    }
+  },
+  "jobs-table": {
+    "no-jobs-found": "No jobs found",
+    "new-job": "New job",
+    "new-job-modal": {
+      "title": "New job"
+    }
+  },
+  "admin": {
+    "title": "Overview",
+    "accounts": {
+      "title": "Accounts"
+    },
+    "account": {
+      "title": "Account",
+      "credits": {
+        "title": "Credits",
+        "summary": "Summary",
+        "summaries": "Summaries",
+        "custom-request": "Custom Request",
+        "custom-requests": "Custom Requests",
+        "vector-search": "Vector Search",
+        "vector-searches": "Vector Searches",
+        "usage-credit": "Usage Credit",
+        "usage-credits": "Usage Credits"
+      },
+      "context": {
+        "add": "Add",
+        "upload": "Upload"
+      }
+    },
+    "logins": {
+      "title": "Logins"
+    },
+    "paid-accounts": {
+      "title": "Paid Accounts"
+    },
+    "charges": {
+      "title": "Charges"
+    }
+  },
+  "send-email": {
+    "title": "Send Email",
+    "description": "Send a hyper-personalized email",
+    "greeting": "Greeting",
+    "paragraph1": "Paragraph 1"
+  },
+  "buy-credits": {
+    "title": "Buy credits",
+    "description": "100 credits equals $1.00 USD of usage just like standard credit card points do. Fees not included.",
+    "select-amount": "Amount of Credits",
+    "payment-method": "Payment Method",
+    "review": "Review",
+    "purchase": "Purchase",
+    "get-credits": "Get credits",
+    "complete-purchase": "Complete Purchase"
+  },
+  "settings": {
+    "purchase-history": {
+      "title": "Purchase History",
+      "description": "The history of your account's transactions on the platform."
+    },
+    "usage-credits": {
+      "credits": "Credits",
+      "credit": "Credit",
+      "title": "Credits"
+    },
+    "free-credits": {
+      "title": "Free credits",
+      "summaries": "Summaries",
+      "summary": "Summary",
+      "vector-searches": "Smart Searches",
+      "vector-search": "Smart Search",
+      "custom-request-credit": "Custom Request",
+      "custom-request-credits": "Custom Requests"
+    },
+    "personal": {
+      "title": "Personal",
+      "first-name": "First name",
+      "last-name": "Last name",
+      "email": "Email",
+      "save": "Save"
+    },
+    "referral-code": {
+      "title": "Referral code",
+      "code": "Code",
+      "first-name": "First name",
+      "last-name": "Last name",
+      "email": "Email",
+      "save": "Save",
+      "generate": "Generate",
+      "view-your-referral-codes": "View your referral codes",
+      "description": "Here are all the referral codes you have generated"
+    },
+    "referral-codes": {
+      "title": "Referral codes",
+      "description": "Here are all the referral codes you have generated",
+      "link": "Copy link"
+    },
+    "payment": {
+      "title": "Payment",
+      "no-card": "No Card",
+      "get-started": "Get started by saving your card with Stripe",
+      "new-card": "New card",
+      "delete-card": "Delete",
+      "new-card-modal": {
+        "card-details": "Card details",
+        "card-number": "Card number",
+        "expiration-date": "Expiration date",
+        "cvv": "CVV/CVC",
+        "security-code": "Security code",
+        "save": "Save",
+        "cancel": "Cancel"
+      }
+    },
+    "api-keys": {
+      "title": "API Keys",
+      "save": "Save",
+      "your-api-keys": "Your API keys",
+      "your-api-keys-desc": "When you use various tools in Kalygo's suite your API keys can be used. This reduces your costs and increases your data throughput as well. We store your API keys encrypted at rest using AWS Secrets Manager and your API keys are pulled in dynamically when needed to protect them from being compromised. We can provide an access audit of your API keys upon request.",
+      "OPEN_AI_API_KEY": "OPEN_AI_API_KEY",
+      "OPEN_AI_API_KEY-placeholder": "Your OPEN_AI_API_KEY",
+      "AWS_SES_ACCESS_KEY": "AWS_SES_ACCESS_KEY",
+      "AWS_SES_ACCESS_KEY-placeholder": "Your AWS_ACCESS_KEY for SES",
+      "AWS_SES_SECRET_KEY": "AWS_SES_SECRET_KEY",
+      "AWS_SES_SECRET_KEY-placeholder": "Your AWS_SECRET_KEY for SES"
+    },
+    "subscription": {
+      "title": "Subscription",
+      "change": "Change",
+      "switch-plan": "Switch plan",
+      "cancel": "Cancel",
+      "you-are-currently-on": "You are currently on: "
+    },
+    "delete-account": {
+      "title": "Delete account",
+      "you-can-mark-your-account": "You can mark your account for deletion here.",
+      "delete-my-account": "Delete my account",
+      "delete-account-modal": {
+        "are-you-sure": "Are you sure you want to delete your account?",
+        "cancel": "Cancel",
+        "delete": "Delete"
+      }
+    },
+    "error": "Error occurred while loading settings"
+  },
+  "unknown-error": "Unknown Error",
+  "coming-soon": "Coming soon!"
+}

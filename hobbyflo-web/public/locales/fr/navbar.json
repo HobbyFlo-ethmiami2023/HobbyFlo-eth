@@ -1,0 +1,15 @@
+{
+  "navbar-use-cases": "Cas d'utilisation",
+  "navbar-contracts": "Contrats",
+  "navbar-feedback": "Retour",
+  "navbar-about": "À propos",
+  "navbar-login": "Se connecter",
+  "navbar-blog": "Blog",
+  "dropdown": {
+    "industries": "les industries",
+    "specialties": "Spécialités",
+    "personal-injury": "Blessure personnelle",
+    "family-law": "Droit de la famille",
+    "civil-litigation": "Litige civil"
+  }
+}

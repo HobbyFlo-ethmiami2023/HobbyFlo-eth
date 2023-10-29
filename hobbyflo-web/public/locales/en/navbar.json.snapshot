@@ -1,0 +1,20 @@
+{
+  "navbar-use-cases": "Use cases",
+  "navbar-contracts": "Contracts",
+  "navbar-feedback": "Feedback",
+  "navbar-about": "About",
+  "navbar-login": "Log in",
+  "navbar-blog": "Blog",
+  "dropdown": {
+    "industries": "Industries",
+    "specialties": "Specialties",
+    "law": "Law",
+    "medical": "Medical",
+    "higher-ed": "Higher Ed",
+    "research": "Research",
+    "marketing": "Marketing",
+    "personal-injury": "Personal Injury",
+    "family-law": "Family Law",
+    "civil-litigation": "Civil Litigation"
+  }
+}
