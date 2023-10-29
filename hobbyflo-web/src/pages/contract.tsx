@@ -36,12 +36,10 @@ const Contract: NextPage = () => {
     try {
       const { buyer, seller, arbiter, endDate } = data;
 
-      const scheduledAtUnixMilliseconds = endDate.unix() * 1000;
+      const endDateUnixMilliseconds = endDate.unix() * 1000;
 
       console.log("data", data);
       console.log("endDate", endDate);
-
-      console.log("recipientEmailsAsArray", recipientEmailsAsArray);
 
       // Ethers.js deploy contract here
 
@@ -51,16 +49,10 @@ const Contract: NextPage = () => {
     }
   };
 
-  watch("includeParagraph2");
-  watch("includeParagraph3");
-  watch("includeParagraph4");
-  watch("includeParagraph5");
-  watch("includeParagraph6");
-
   return (
     <>
       <Head>
-        <title>Dashboard</title>
+        <title>Contract</title>
       </Head>
       <LayoutDashboard>
         <>
